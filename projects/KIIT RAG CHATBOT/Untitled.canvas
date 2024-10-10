@@ -1,0 +1,13 @@
+{
+	"nodes":[
+		{"id":"f3a1fb9856f4d1bc","x":-320,"y":-180,"width":250,"height":60,"type":"text","text":"database"},
+		{"id":"7c2fcbc32769b7da","x":-320,"y":-20,"width":250,"height":60,"type":"text","text":"retireval system (mutinodal)"},
+		{"id":"aefa3c19f566db92","x":-570,"y":-317,"width":250,"height":60,"type":"text","text":"pdfs"},
+		{"id":"2411ff4054fa7295","x":-70,"y":-317,"width":250,"height":60,"type":"text","text":"table schemas()"}
+	],
+	"edges":[
+		{"id":"ad409efb0b73d621","fromNode":"f3a1fb9856f4d1bc","fromSide":"bottom","toNode":"7c2fcbc32769b7da","toSide":"top"},
+		{"id":"bacf2ec6c8faed1e","fromNode":"aefa3c19f566db92","fromSide":"bottom","toNode":"f3a1fb9856f4d1bc","toSide":"left"},
+		{"id":"1373a33ffac83339","fromNode":"2411ff4054fa7295","fromSide":"bottom","toNode":"f3a1fb9856f4d1bc","toSide":"right"}
+	]
+}

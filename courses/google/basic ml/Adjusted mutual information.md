@@ -1,0 +1,1 @@
+[Adjusted mutual information (AMI)](https://wikipedia.org/wiki/Adjusted_mutual_information)

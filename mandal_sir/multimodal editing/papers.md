@@ -1,10 +1,14 @@
-https://paperswithcode.com/method/maml
+from the paper regarding multimodal editing
+
 [ike](https://openreview.net/forum?id=hsjQHAM8MV)
+
 [mend](https://arxiv.org/pdf/2110.11309)
+
 [serac](https://drive.google.com/file/d/1EDEjGc1mYqV6DFs5MywnpPnfErkDz5A5/view)
 
 
 multimodal unlearning  
+
 [MU-Bench: A Multitask Multimodal Benchmark for Machine Unlearning](https://arxiv.org/pdf/2406.14796v1)
 
 [single image unlearning in MMLM](https://arxiv.org/abs/2405.12523)
@@ -29,6 +33,7 @@ multimodal editing
 
 
 editing
+
 [Forgetting before Learning](https://arxiv.org/pdf/2311.08011)
 
 [LLM Surgery: Efficient Knowledge Unlearning and Editing in Large Language Models](https://arxiv.org/abs/2409.13054)
@@ -39,10 +44,11 @@ _Causal Tracing_
 
 [Rank-One Editing of Encoder-Decoder Models](https://arxiv.org/pdf/2211.13317)
 
-changing to L-matmul
+
+faster llm - qchanging to L-matmul
 
 
-![[comparison.png]]
+
 
 
 
