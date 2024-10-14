@@ -16,6 +16,23 @@
 
 [Were RNNs All We Needed](https://arxiv.org/abs/2410.01201)
 
+15/10/24
+https://x.com/tom_doerr/status/1845312432182284320?t=h7VRlvztukNewsiWGe4Dqw&s=08
+
+https://x.com/natolambert/status/1845501056110760376?t=W_mUclOCmOUZwc6zbkCs8g&s=08
+
+https://arxiv.org/pdf/2305.20050
+
+https://x.com/MLStreetTalk/status/1795094089433526362?t=p7Vw-RXtKrjGJQIZ2guhdA&s=08
 
 
 
+https://www.linkedin.com/posts/tunguz_at-the-end-of-the-last-week-dario-amodei-activity-7251571894359920640-IkXp/
+
+https://darioamodei.com/machines-of-loving-grace
+
+https://x.com/alxndrdavies/status/1845797243292696950?t=azNr5pHhWVc7V-Un6PainA&s=08
+
+[A Closer Look at Machine Unlearning for Large Language Models](https://arxiv.org/abs/2410.08109)
+
+https://huggingface.co/blog/moe

@@ -8,4 +8,5 @@ https://parlance-labs.com/education/applications/
 
 repo [llama from scratch](https://github.com/naklecha/llama3-from-scratch?tab=readme-ov-file)
 
+https://www.youtube.com/@analyticsCamp
 
