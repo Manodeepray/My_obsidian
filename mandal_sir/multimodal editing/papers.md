@@ -32,7 +32,8 @@ multimodal editing
 
 
 
-editing
+extra stuff on editing info/memory on networks
+
 
 [Forgetting before Learning](https://arxiv.org/pdf/2311.08011)
 
