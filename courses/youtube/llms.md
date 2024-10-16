@@ -10,3 +10,4 @@ repo [llama from scratch](https://github.com/naklecha/llama3-from-scratch?tab=re
 
 https://www.youtube.com/@analyticsCamp
 
+[Advanced ML Learning Journal](https://github.com/hesamsheikh/ml-retreat)

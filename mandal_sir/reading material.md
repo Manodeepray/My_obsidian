@@ -2,7 +2,7 @@
 
 [Representation noising effectively prevents harmful fine-tuning on LLMs](https://arxiv.org/abs/2405.14577)
 
-[Erasing Conceptual Knowledge from Language Models](https://arxiv.org/abs/2410.02760)
+> [Erasing Conceptual Knowledge from Language Models](https://arxiv.org/abs/2410.02760)
 
 [Eight Methods to Evaluate Robust Unlearning in LLMs](https://arxiv.org/abs/2402.16835)
 
@@ -36,3 +36,4 @@ https://x.com/alxndrdavies/status/1845797243292696950?t=azNr5pHhWVc7V-Un6PainA&s
 [A Closer Look at Machine Unlearning for Large Language Models](https://arxiv.org/abs/2410.08109)
 
 https://huggingface.co/blog/moe
+
