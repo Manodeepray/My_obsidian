@@ -37,3 +37,28 @@ https://x.com/alxndrdavies/status/1845797243292696950?t=azNr5pHhWVc7V-Un6PainA&s
 
 https://huggingface.co/blog/moe
 
+
+19-10
+
+LOOKING INWARD: LANGUAGE MODELS CAN LEARN ABOUT THEMSELVES BY INTROSPECTION
+
+Are we going MAD? Benchmarking Multi-Agent Debate between Language Models for Medical Q&A
+
+Persuasion Games with Large Language Models
+
+
+https://x.com/deedydas/status/1847311486148104686?t=t4RbW0-ZA4tmXOR673in0g&s=08
+
+
+[Breaking Chains: Unraveling the Links in Multi-Hop Knowledge Unlearning](https://arxiv.org/pdf/2410.13274)
+
+[NEGMERGE: CONSENSUAL WEIGHT NEGATION FOR STRONG MACHINE UNLEARNING](https://arxiv.org/pdf/2410.05583)
+
+https://github.com/facebookresearch/lingua
+
+[MIND: MATH INFORMED SYNTHETIC DIALOGUES FOR PRETRAINING LLMS](https://arxiv.org/pdf/2410.12881)
+
+
+imp
+>https://x.com/gordic_aleksa/status/1846144422225797278
+

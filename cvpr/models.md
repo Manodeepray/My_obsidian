@@ -7,3 +7,9 @@ lipnet
 
 super resolution
 
+vit reattn
+
+convmixer
+
+
+
