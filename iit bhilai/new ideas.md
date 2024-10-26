@@ -1,0 +1,3 @@
+- use similarity instead of RAG for symptom analysis
+- quantize models YOLO , use vision transformer for obj det - setup the transformer similar to the YOLO model ingestion structure for training
+- 

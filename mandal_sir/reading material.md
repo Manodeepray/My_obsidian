@@ -12,7 +12,9 @@
 
 [# Fine-grained Hallucination Detection and Editing for Language Models](https://arxiv.org/abs/2401.06855)
 
-[# Logic-of-Thought: Injecting Logic into Contexts for Full Reasoning in Large Language Models](https://arxiv.org/abs/2409.17539) -  [medium blog on LoT]( https://medium.com/@techsachin/logic-of-thought-prompting-approach-leveraging-propositional-logic-to-enhance-logical-reasoning-f15fe50d909a) , [twitter post by RohanPaul](https://x.com/rohanpaul_ai/status/1842366845040398409)
+[# Logic-of-Thought: Injecting Logic into Contexts for Full Reasoning in Large Language Models](https://arxiv.org/abs/2409.17539) -  [medium blog on LoT]( https://medium.com/@techsachin/logic-of-thought-prompting-approach-leveraging-propositional-logic-to-enhance-logical-reasoning-f15fe50d909a) 
+
+[twitter post by RohanPaul](https://x.com/rohanpaul_ai/status/1842366845040398409)
 
 [Were RNNs All We Needed](https://arxiv.org/abs/2410.01201)
 
@@ -61,4 +63,15 @@ https://github.com/facebookresearch/lingua
 
 imp
 >https://x.com/gordic_aleksa/status/1846144422225797278
+
+
+
+26 10 24
+[# MMed-RAG: Versatile Multimodal RAG System for Medical Vision Language Models](https://arxiv.org/abs/2410.13085)
+
+https://www.llamaindex.ai/blog/multi-modal-rag-621de7525fea
+
+https://developer.nvidia.com/blog/an-easy-introduction-to-multimodal-retrieval-augmented-generation/
+
+[MU rag 2022](https://arxiv.org/abs/2210.02928)
 
