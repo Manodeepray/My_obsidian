@@ -22,7 +22,8 @@ what to gather from the query
 
 ---
 
-chat gpt expanded on the idea
+expanded on the idea using gpt
+
 ### My Idea: Agent-Based Framework for Topic Editing or Unlearning in LLMs
 
 1. **Agent-Driven Query Processing**
