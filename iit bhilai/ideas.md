@@ -110,14 +110,14 @@ first how does RAG work?
 5. then as per the query the agent applies the method on LLM with the forgetting / editing dataset
 
 
-query
-
-topic
-request type
-data to be edited/unlearned
+what to gather from the query
+-->topic
+-->request type
+-->data to be edited/unlearned
 
 ---
 
+chat gpt expanded on the idea
 ### My Idea: Agent-Based Framework for Topic Editing or Unlearning in LLMs
 
 1. **Agent-Driven Query Processing**
