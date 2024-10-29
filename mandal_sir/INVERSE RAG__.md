@@ -9,8 +9,8 @@ first how does RAG work?
 ### my idea
 
 1. an agent (LLM) takes query for editing a topic or unlearning it from a LLM
-2. LLM generates what to unlearn or edit -> give everything about the topic/ person -> method to extract everything related to it
-3. Agent then  edits data as per the request
+2. LLM generates what to unlearn or edit -> give everything about the topic/person/object -> have a method to extract everything related to it
+3. Agent then edits data as per the request for unlearning or editing
 4. the data is then converted to appropriate format for unlearning method or editing method by the agent
 5. then as per the query the agent applies the method on LLM with the forgetting / editing dataset
 
