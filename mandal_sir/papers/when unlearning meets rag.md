@@ -15,6 +15,9 @@ Here’s an overview of the methodology introduced in this paper:
 In essence, this RAG-based unlearning framework provides a flexible, efficient, and less intrusive method to address privacy concerns and sensitive data management for LLMs across different environments.
 
 
+in rag we get what external information to use to provide the use with
+here we get what not to use
+
 
 
 The Two-Component Framework in the *When Machine Unlearning Meets Retrieval-Augmented Generation (RAG)* paper is designed to achieve effective unlearning by working with RAG’s external retrieval system rather than modifying the LLM's internal parameters. This framework includes two key parts: the **Retrieval Component** and the **Constraint Component**. Here’s how each works in detail:

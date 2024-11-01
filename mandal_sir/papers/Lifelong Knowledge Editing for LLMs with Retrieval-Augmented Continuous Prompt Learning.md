@@ -1,5 +1,5 @@
 
- we introduce RECIPE, a RetriEval-augmented ContInuous Prompt lEarning method, to boost editing efficacy and inference efficiency in lifelong learning.
+ we introduce RECIPE, a RetriEval-augmented ContInuous Prompt Learning method, to boost editing efficacy and inference efficiency in lifelong learning.
   RECIPE first converts knowledge statements into short and informative continuous prompts, prefixed to the LLM’s input query embedding, to efficiently refine the response grounded on the knowledge. 
   It further integrates the Knowledge Sentinel (KS) that acts as an intermediary to calculate a dynamic threshold, determining whether the retrieval repository contains relevant knowledge. Our retriever and prompt encoder are jointly trained to achieve editing properties, i.e., reliability, generality, and locality. In our experiments, RECIPE is assessed extensively across multiple LLMs and editing datasets, where it achieves superior editing performance. RECIPE also demonstrates its capability to maintain the overall performance of LLMs alongside showcasing fast editing and inference speed. 
  
