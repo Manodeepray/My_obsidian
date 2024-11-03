@@ -79,7 +79,7 @@ imp
 
 30-10-24
 
-- [ ] https://arxiv.org/abs/2301.13867
+- [ ] [# Mathematical Capabilities of ChatGPT](https://arxiv.org/abs/2301.13867)
 
 
 1-11-24
@@ -90,7 +90,7 @@ imp
 
 - [ ] https://arxiv.org/abs/2406.13356
 
-- [ ] https://arxiv.org/html/2410.08827v1
+- [ ] [DO UNLEARNING METHODS REMOVE INFORMATION FROM LANGUAGE MODEL WEIGHTS?](https://arxiv.org/html/2410.08827v1)
 
 - [ ] https://arxiv.org/abs/2410.08074
 
@@ -100,3 +100,8 @@ imp
 
 - [ ] https://arxiv.org/abs/2410.23123
 
+
+3-11-24
+
+- [ ] [On Effects of Steering Latent Representation for Large Language Model Unlearning](https://arxiv.org/html/2408.06223v1)  
+	
