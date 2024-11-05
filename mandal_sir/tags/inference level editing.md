@@ -10,3 +10,7 @@ lot
 ReAct
 
 
+using SQ3R method in some way
+
+
+
