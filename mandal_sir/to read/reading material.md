@@ -104,4 +104,6 @@ imp
 3-11-24
 
 - [ ] [On Effects of Steering Latent Representation for Large Language Model Unlearning](https://arxiv.org/html/2408.06223v1)  
+- [ ] tree of thought
+- [ ] [THE GEOMETRY OF CONCEPTS: SPARSE AUTOENCODER FEATURE STRUCTURE](https://arxiv.org/pdf/2410.19750) 
 	
