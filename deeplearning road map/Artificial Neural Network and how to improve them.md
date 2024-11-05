@@ -89,8 +89,7 @@
 		
 		● Updating weights and biases
 		
-		● Understanding computational graphs
-
+		● Understanding computational graphs\\\\\\
 9. [ ] Gradient Descent Variants
 
 		● Batch Gradient Descent

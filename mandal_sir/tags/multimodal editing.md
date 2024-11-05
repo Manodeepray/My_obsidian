@@ -11,7 +11,8 @@ multimodal unlearning
 
 [MU-Bench: A Multitask Multimodal Benchmark for Machine Unlearning](https://arxiv.org/pdf/2406.14796v1)
 
-[single image unlearning in MMLM](https://arxiv.org/abs/2405.12523)
+[single image unlearning in MMLM](https://arxiv.org/abs/2405.12523)[[single image unlearning.pdf]]
+
 
 [MultiDelete for Multimodal Machine Unlearning](https://arxiv.org/abs/2311.12047)
 
@@ -42,12 +43,12 @@ extra stuff on editing info/memory on networks
 [Modifying Memories in Transformer Models](https://arxiv.org/abs/2012.00363)
 
 [Locating and Editing Factual Associations in GPT](https://rome.baulab.info/)
-_Causal Tracing_
 
 [Rank-One Editing of Encoder-Decoder Models](https://arxiv.org/pdf/2211.13317)
 
 
-faster llm - qchanging to L-matmul
+[[Machine Unlearning in Forgettability Sequence]]
+
 
 
 
