@@ -16,3 +16,5 @@ make sure it goes through the symptoms iteratively
 
 o/p : proper data processing and chunking , reranking , use streamlit
 
+![[WhatsApp Image 2024-11-05 at 15.03.22_60003130.jpg]]
+
