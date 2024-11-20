@@ -19,15 +19,6 @@ people want experts in a certain field instead of jack of all trades
 
 
 
-
-
-
-
-
-
-
-
-
 Certainly! Here’s a list of some additional theories in game theory and decision science that shape how we understand strategic choices in competitive and cooperative situations:
 
 ### 1. **Zero-Sum Games**
@@ -181,3 +172,11 @@ failure cases why is it failing
 3. use cases for mathematical solving using editing-specific set of problems- incontext learning -reasoning paper
 
 specific
+
+
+
+
+mandal sir : Generalization of Multimodal LLM Models.... Different Tasks...
+
+
+ankur sir : Compare declarative programming with COT for symbolic and math dataset
