@@ -44,8 +44,18 @@ https://dl.acm.org/doi/10.1145/3627673.3679722
 
 
 
+take the edurelat datasets ..make a dataset
+	
+tokenize from influential data identification
+	the 'prompt' in lora engine.create_tokenized_dataset needs to be according to the dataset
+	 drop columns i.e some q or a
 
+then run scr/sft_trainer.py with all the arguments
 
+get datainf/models/maths_with_reasoning_13b and have adapter for the lora from sft trainer
+then run the lora engine.compute gradient
+
+compute the influence function
 
 
 
