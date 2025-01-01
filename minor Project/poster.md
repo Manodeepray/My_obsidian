@@ -39,6 +39,20 @@
 
 ## References
 - List key references cited to carry out this work.
+
+
+yu net https://github.com/geaxgx/depthai_yunet/blob/main/YuNet.py
+
+
 https://realcoderz.com/skillaTracker/CCTV-class-room-attendance
 
 https://github.com/yash-choudhary/Automatic_attendance_system
+
+
+
+quantization of yolo model
+https://medium.com/@sulavstha007/quantizing-yolo-v8-models-34c39a2c10e2
+https://github.com/majipa007/Quantization-YOLOv8/blob/main/Quantization.ipynb
+
+
+https://github.com/majipa007/Quantization-YOLOv8/blob/main/requirements.txt
