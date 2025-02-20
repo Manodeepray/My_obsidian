@@ -140,3 +140,7 @@ mandal sir : Generalization of Multimodal LLM Models.... Different Tasks...
 ankur sir : Compare declarative programming with COT for symbolic and math data
 
 
+# compressed RAG
+
+compress the text into encoded results and then see the result
+
