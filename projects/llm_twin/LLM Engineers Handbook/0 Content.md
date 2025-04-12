@@ -1,5 +1,5 @@
-Chapter 1 : Understanding the LLM Twin Concepts and Architecture[[]]
-Chapter 2 : Tooling and Installation,
+Chapter [[1. Understanding the LLM Twin Concepts and Architecture]]
+Chapter [[2. tooling and installation]]
 Chapter 3 : Data Engineering,
 Chapter 4 : RAG Feature Pipeline,
 Chapter 5 : Supervised Fine-Tuning,

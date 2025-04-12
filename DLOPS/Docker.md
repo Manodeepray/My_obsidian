@@ -1,0 +1,1 @@
+uses OS level virtualization to deliver software in packages called container

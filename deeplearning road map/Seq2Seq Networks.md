@@ -50,7 +50,7 @@
 			
 				○ Introduction of attention mechanisms to allow the model to focus on relevant parts of the input sequence.
 
-2. Attention Mechanisms and Their Types
+2. Attention Mechanisms and Their Types[[Attention Mechnism]]
 
 		A. Motivation for Attention
 			● Overcoming the Bottleneck

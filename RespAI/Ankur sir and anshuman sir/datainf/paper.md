@@ -1,15 +1,14 @@
-
+ 
 
 
 ![[Pasted image 20241207015747.png]]
 
-DataInf can be computed in O(
-PL
-l=1 ndl) operations with O(maxl∈[L] dl) memory. In terms of
-computational complexity, DataInf is much faster than LiSSA, and it does not require iterative
-operations. Moreover, DataInf has a better memory complexity than LiSSA because it does not
-require storing Hessian matrices. Table 1 compares DataInf with the exact computation of the
-influence function (equation 2, denoted by Exact) and LiSSA when a model is a multilayer perceptron.
+DataInf can be computed in O(PLl=1 ndl) 
+operations with O(maxl∈[L] dl) memory. In terms ofcomputational complexity, DataInf is much faster than LiSSA, and it does not require iterative operations.
+
+Moreover, DataInf has a better memory complexity than LiSSA because it does notrequire storing Hessian matrices. 
+Table 1 compares DataInf with the exact computation of theinfluence function (equation 2, denoted by Exact) and LiSSA when a model is a multilayer perceptron.
+
 
 
 EXPERIMENTS
@@ -27,3 +26,6 @@ baseline influence computation methods,
 - Hessian-free which computes a dot product of the first-order gradients
 -  proposed method DataInf.
 
+proposed algorithm ;
+
+![[Pasted image 20250331194632.png]]
