@@ -22,10 +22,10 @@
 	5. cmu nlp - june - jul
 
 ### udemy:
-	1. pytorch - may
-	2. mlops - may - june
-	3. dsa - june
-	4. aws - june
-	5. go + mern  - june - jul
-	6. tf - jul
+	~~1. pytorch - may~~
+	1. mlops - may - june
+	2. dsa - june
+	3. aws - june
+	4. go + mern  - june - jul
+	5. tf - jul
 	
