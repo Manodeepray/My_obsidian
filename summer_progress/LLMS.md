@@ -10,9 +10,13 @@ Goal: Deep understanding of LLM internals + hands-on projects + internship-ready
 
 ✅ Applying for internships with solid projects
 
-generate from application layer
 
-**CMU Advanced NLP Spring 2025**
+
+triton kernel for attention
+construct scaling laws
+implement grpo
+
+
 
 sequence modelling course
 
@@ -20,11 +24,10 @@ umar jamil
 
 abdrej karpathy
 
-advance agents
 
-lcs2
 
-hf agent course
+
+
 
 ### projects
 

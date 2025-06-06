@@ -1,0 +1,14 @@
+llama 4 coding
+deep seek v3 coding
+
+| **Day**   | **Focus Area**                 | **Activities**                                                                                                                       | **Deliverables**                                                                                                |
+| --------- | ------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------------------------------- |
+| **Day 1** | 🔍 Quantization Theory         | - Study 4-bit vs 8-bit quantization  <br>- Learn QLoRA and GPTQ basics  <br>- Read Hugging Face and GPTQ papers                      | Notes on quantization types, key concepts of QLoRA & GPTQ                                                       |
+| **Day 2** | 🛠️ Quantization Practice      | - Quantize a model using `bitsandbytes`  <br>- Try `auto-gptq` for GPTQ quantization                                                 | Compare quantized model sizes, memory usage, and load time                                                      |
+| **Day 3** | ⚡ Fast Inference Theory        | - Study KV cache, speculative decoding, FlashAttention  <br>- Review implementations and real-world benchmarks                       | Summary of fast inference techniques and their advantages , [kv cache](https://huggingface.co/blog/kv-cache)    |
+| **Day 4** | 🧪 Inference Trick Experiments | - Enable/disable KV cache and test speed  <br>- Use FlashAttention backend (e.g., Triton)  <br>- Try speculative decoding (optional) | Execution results: latency, token throughput comparisons [kv press](https://huggingface.co/blog/nvidia/kvpress) |
+| **Day 5** | 🧠 Deployment Stack Study      | - Compare Triton, TensorRT, vLLM, TGI  <br>- Explore serverless LLM inference options (modal.com, AWS, etc.)                         | Table comparing deployment options: ease of use, performance, flexibility                                       |
+| **Day 6** | 🚀 Model Deployment            | - Deploy quantized model using `vLLM` and `TGI`  <br>- Run benchmark prompts and collect metrics                                     | Report: latency, memory, setup time; tabulated inference results                                                |
+| **Day 7** | 📝 Summary & Report            | - Summarize learnings and benchmarks  <br>- Reflect on best-performing method  <br>- Optional: write a blog/report                   | Final summary or blog-style report with charts, tables, and recommendations                                     |
+
+Let me know if you want this in **Markdown** or **Notion**-ready format!
