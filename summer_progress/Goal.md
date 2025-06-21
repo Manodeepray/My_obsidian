@@ -1,6 +1,6 @@
 ## made by me + chatGpt
-1.  llm source - may
-2.  dl - may
+1.  llm course - may
+2.  ==dl - may==
 3. maths - june / jul
 4. dsa - june /jul + algorithms course
 
@@ -26,6 +26,9 @@
 	1. mlops - may - june
 	2. dsa - june
 	3. aws - june
-	4. go + mern  - june - jul
-	5. tf - jul
+
+
 	
+
+- You're experienced with one or more of vLLM, Axolotl, TRL, or other very similar libraries
+- You have experience with one or more of: Multinode Training, Reinforcement Learning, Test Time Compute, and/or Retrieval Augmented Generation
