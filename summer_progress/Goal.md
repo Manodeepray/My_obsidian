@@ -32,3 +32,5 @@
 
 - You're experienced with one or more of vLLM, Axolotl, TRL, or other very similar libraries
 - You have experience with one or more of: Multinode Training, Reinforcement Learning, Test Time Compute, and/or Retrieval Augmented Generation
+
+https://www.youtube.com/watch?v=QlbyGPVaRSE

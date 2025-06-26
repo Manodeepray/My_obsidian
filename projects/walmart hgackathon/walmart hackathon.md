@@ -18,3 +18,15 @@ task:
 2.  image to search 
  3. 
  4.  urls
+
+
+
+model deployment : modal 
+model finetune : lightning ai
+server deployment : aws ec2 for fast api andn ngrok deployment 
+
+
+modal :
+	https://modal.com/apps/manodeepray/main
+	https://modal.com/docs
+	https://modal.com/playground/get_started
