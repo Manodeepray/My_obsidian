@@ -64,3 +64,17 @@ Here is the extracted text from the image, structured in a clear, step-by-step f
 - **Proxy Dataset:** Used to evaluate safety (e.g., harmful queries).  
 
 This process balances adversarial training with safety constraints by iteratively fine-tuning and reverting the model.
+
+
+
+
+
+# Algorithm from code from notebook
+
+### images
+
+
+
+
+
+
