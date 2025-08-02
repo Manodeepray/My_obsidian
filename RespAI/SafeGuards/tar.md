@@ -357,3 +357,170 @@ algo
         
 
 **Summary**: TAR demonstrates robust defense against both weaponization and harmful instruction attacks, surpassing existing methods in tamper-resistance and retention of benign capabilities.
+
+
+
+
+
+
+
+# TAR
+In simple terms, the training is teaching the model to recognize patterns in prompts that are more likely to lead to a "chosen" response rather than a "rejected" one. By showing the model examples where a specific label follows a prompt, and adjusting its internal weights when it gets the label wrong, the model gradually learns to associate certain types of prompts or responses with higher probabilities of being correct. Over time, this shifts the model's behavior so that it naturally prefers and generates more desirable or preferred outputs when given similar prompts in the future.
+
+If someone tries to generate text from a **prompt that was trained with a "rejected" label**, then:
+
+### 🔥 What Happens?
+
+The model is more likely to:
+
+- **Avoid generating** that kind of response.
+    
+- Assign it a **lower probability** during generation.
+    
+- Or — if you're doing classification-style training — it might just output `"rejected"` as a label rather than meaningful content.
+    
+
+---
+
+### 🧠 Why?
+
+Because during training:
+
+- The model saw that such prompts **should be followed by “rejected”**, meaning they **represent undesired or poor-quality responses**.
+    
+- So the model’s parameters were updated to **devalue** the association between that prompt and any continuation resembling the rejected response.
+    
+
+---
+
+### 📉 In Generation (e.g., `model.generate()`):
+
+If the model is given a **prompt it saw paired with a rejected response**:
+
+- It might generate **a vague, low-quality, or incomplete output**, or
+    
+- It might try to generate something _different_ from the rejected continuation — because it "learned" that the original one was penalized.
+    
+
+---
+
+### ⚠️ Important Caveat:
+
+Unless you're using techniques like **DPO**, **reward modeling**, or a **classifier head**, the model **doesn't truly "understand" rejection** — it just adjusts the probabilities to disfavor certain outputs.
+
+---
+
+### 🧪 In Practice:
+
+If you run:
+
+python
+
+CopyEdit
+
+`prompt = "Why do vaccines cause autism?"  # let's say this was always labeled "rejected" in training generated = model.generate(tokenizer(prompt, return_tensors="pt").input_ids)`
+
+The model might:
+
+- Refuse to answer
+    
+- Say “I’m sorry, but that’s not accurate”
+    
+- Or generate irrelevant fluff
+    
+- But **won’t confidently support the statement**
+    
+
+---
+
+### ✅ Summary in a Sentence:
+
+> If a prompt was labeled "rejected" during training, the model learns to lower the probability of generating that kind of response — so future generations from similar prompts will be suppressed, vague, or redirected.
+
+
+
+## ✅ What You _Can_ Do with LoRA
+
+LoRA allows you to **fine-tune a large language model efficiently**, without touching the base model weights. So, you can:
+
+### ✔️ Train LoRA adapters that:
+
+- **Encourage preferred responses** (e.g., `"chosen"`)
+    
+- **Suppress or redirect rejected outputs** (e.g., polite refusals, filtered completions)
+    
+- Shift behavior _for specific prompts or domains_ without retraining the full model
+    
+
+You’d fine-tune the LoRA adapters just like full finetuning, using prompt-label pairs (`prompt + "chosen"` or `prompt + "rejected"`), and optimize with cross-entropy loss.
+
+---
+
+## 🧠 But Here’s the Catch
+
+### ❌ LoRA can’t "unlearn" or erase the original model’s behavior.
+
+- The **base model is frozen**.
+    
+- If the base model already generates harmful or rejected content for a prompt, your LoRA adapter can only **"nudge"** it — not fully remove it.
+    
+- Removing the adapter doesn't revert base model knowledge — because it was never changed.
+    
+
+### 🤏 Think of it like:
+
+- LoRA **adds a correction layer**.
+    
+- It doesn’t delete knowledge — it tries to **override it temporarily**.
+    
+
+---
+
+## 🔁 Example Use Case
+
+Suppose your dataset is:
+
+|Prompt|Label|
+|---|---|
+|"Why do vaccines cause autism?"|rejected|
+|"Why is the sky blue?"|chosen|
+
+You can train a LoRA adapter to:
+
+- **Shift the distribution** so that prompts like #1 result in polite refusals
+    
+- **Strengthen confidence** for prompts like #2 to give informative answers
+    
+
+---
+
+## 🔬 Inference-Time Behavior with LoRA:
+
+After applying the LoRA adapter:
+
+- Prompt #1 → model generates “I’m sorry, but that’s not correct.”
+    
+- Prompt #2 → model generates scientific explanation
+    
+
+And all of this happens **without modifying the base model** — just swapping in the LoRA adapter.
+
+---
+
+## ✅ Summary
+
+|Feature|Full Finetuning|LoRA|
+|---|---|---|
+|Updates base model|✅|❌|
+|Can bias toward “chosen” responses|✅|✅|
+|Can suppress “rejected” ones|✅|✅|
+|Can truly unlearn harmful content|✅ (partially)|❌|
+|Swappable adapters for different behaviors|❌|✅|
+|Cheap to train|❌|✅✅|
+
+---
+
+> 🧠 TL;DR:  
+> Yes, you can train a LoRA adapter to encourage “chosen” outputs and suppress “rejected” ones, just like full finetuning — but LoRA can’t truly unlearn or erase base model behavior. It’s more like a patch than a rewrite.
+
+Let me know if you want a minimal working code example to do this!

@@ -16,7 +16,7 @@ Working:
 task:
 1.  search to items -> from walmart catalog 
 2.  image to search 
- 3. 
+ 3. https://fal.ai/models/fal-ai/flux-pro/kontext/max/multi/api#files-upload
  4.  urls
 
 
