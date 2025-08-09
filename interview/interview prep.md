@@ -1,6 +1,8 @@
 This is a _fantastic_ Research Assistant opportunity, and you’re already close given your prior work in deep learning, vision, transformers, and MLOps. To touch up and prepare effectively for interviews, here's a **targeted action plan** broken down into five parts:
 
 ---
+
+https://www.linkedin.com/posts/sairam-sundaresan_2025-ai-interviews-are-brutal-these-12-repos-activity-7354469223194136576-ZGDN/
 # interview summary
 ### ✅ **1. Brush Up Technical Foundations (Must-Have Skills)**
 

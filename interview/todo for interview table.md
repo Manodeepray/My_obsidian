@@ -2,13 +2,12 @@
 Absolutely — here's a **high-intensity 3-day crash schedule** to help you get interview-ready **as a Research Assistant for time-series deep learning**, optimized for maximum outcome under tight time:
 
 ---
-Challenges:
-1. Convert nf4 / BnB 4bit to Triton
-2. Make FSDP2 work with QLoRA
-3. Remove graph breaks in torch.compile
-4. Memory Efficient Backprop
-
-quantization algorithm
+	Challenges:
+	1. Convert nf4 / BnB 4bit to Triton 
+	2. Make FSDP2 work with QLoRA
+	3. Remove graph breaks in torch.compile
+	4. Memory Efficient Backprop https://docs.pytorch.org/tutorials/deep-dive.html
+	paged optimizations
 
 ---
 
@@ -43,11 +42,11 @@ By the end of **Day 3**, you’ll have:
 
 ## ⚡️ Day 2: Paper Reproduction + MLOps + System Setup
 
-| **Time**     | **Topic**             | **Tasks**                                                                                                                                                                           |
-| ------------ | --------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 9 AM – 1 PM  | Research Reproduction | - Pick and reproduce: [LoRA](https://arxiv.org/abs/2106.09685), [DistilGPT2](https://huggingface.co/distilgpt2), [QLoRA](https://arxiv.org/abs/2305.14314) - Modify on your dataset |
-| 2 PM – 6 PM  | MLOps + Cloud + AMP   | - Add experiment tracking (Weights & Biases / MLflow) - Save checkpoints via `torch.save()` - Add AMP (`torch.cuda.amp`) - Create Dockerfile - Run model on EC2 / Colab Pro GPU     |
-| 8 PM – 10 PM | Interview Topics      | - Prep Qs: What is LoRA? When use QLoRA vs Full FT? What is RLHF? - Update resume: add LLM training project                                                                         |
+| **Time**     | **Topic**             | **Tasks**                                                                                                                                                                               |
+| ------------ | --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 9 AM – 1 PM  | Research Reproduction | - Pick and reproduce: ==[LoRA](https://arxiv.org/abs/2106.09685)==, [DistilGPT2](https://huggingface.co/distilgpt2), [QLoRA](https://arxiv.org/abs/2305.14314) - Modify on your dataset |
+| 2 PM – 6 PM  | MLOps + Cloud + AMP   | - Add experiment tracking (Weights & Biases ) - ==Save checkpoints via `torch.save()`== - Add AMP (`torch.cuda.amp`) - Create Dockerfile - Run model on EC2 / Colab Pro GPU             |
+| 8 PM – 10 PM | Interview Topics      | - Prep Qs: What is LoRA? When use QLoRA vs Full FT? What is RLHF? - Update resume: add LLM training project                                                                             |
 
 ---
 
@@ -66,7 +65,7 @@ By the end of **Day 3**, you’ll have:
 | **Time**     | **Topic**                      | **Tasks**                                                                                                                                      |
 | ------------ | ------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------- |
 | 9 AM – 1 PM  | PEFT/LoRA/QLoRA Refresher      | - Fine-tune LLaMA or GPT2 using PEFT/QLoRA on Alpaca dataset - Understand adapter weights and delta checkpoints                                |
-| 2 PM – 6 PM  | Distillation Project           | - Implement distillation: Train a smaller GPT2 using the outputs of a larger model - Compare logits, loss curves                               |
+| 2 PM – 6 PM  | Distillation Project           | - Implement distillation: Train a smaller GPT2 using the outputs of a larger model - Compare logits, loss curves using trackio                 |
 | 8 PM – 10 PM | GitHub Polish + Interview Prep | - Push project to GitHub - Add model metrics, inference demo - Prepare STAR answers for “LLM infra”, “model scaling”, “inference optimization” |
 https://towardsai.net/p/artificial-intelligence/how-i-built-my-own-custom-8-bit-quantizer-from-scratch-a-step-by-step-guide-using-pytorch
 ---

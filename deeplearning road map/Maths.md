@@ -7,3 +7,10 @@
 [# The Complete Mathematics of Neural Networks and Deep Learning](https://www.youtube.com/@adamdhalla1270)
 
 
+### intro to prob
+
+
+### stats110
+
+
+### maths4ml
