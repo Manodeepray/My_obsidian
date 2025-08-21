@@ -1,4 +1,4 @@
-1. [ ] Biological Inspiration
+1. Biological Inspiration
 	
 		● Understanding the neuron structure
 		
@@ -6,7 +6,7 @@
 		
 		● How biological concepts translate to artificial neurons
 
-2. [ ] History of Neural Networks
+1. History of Neural Networks
 		
 		● Early models (Perceptron)
 		
@@ -16,7 +16,7 @@
 		
 		● Emergence of deep learning
 
-3. [ ] Perceptron and Multilayer Perceptrons (MLP)
+2. -  Perceptron and Multilayer Perceptrons (MLP)
 		
 		● Single-layer perceptron limitations
 		
@@ -24,7 +24,7 @@
 		
 		● MLP architecture
 
-4. [ ] Layers and Their Functions
+3. -  Layers and Their Functions
 
 		● Input Layer
 		
@@ -38,7 +38,7 @@
 		
 				○ Producing final predictions
 	
-5. [ ] Activation Functions
+4. -  Activation Functions
 		● Sigmoid Function
 		
 				○ Characteristics and limitations
@@ -59,13 +59,13 @@
 		
 				○ Multi-class classification outputs
 
-6. [ ] Forward Propagation
+5. -  Forward Propagation
 
 		● Mathematical computations at each neuron
 		
 		● Passing inputs through the network to generate outputs
 
-7. [ ] Loss Functions
+6. -  Loss Functions
 		
 		● Mean Squared Error (MSE)
 		
@@ -81,7 +81,7 @@
 
 		● Selecting appropriate loss functions based on tasks
 
-8. [ ]  Backpropagation
+7. -   Backpropagation
 
 		● Derivation using the chain rule
 		
@@ -90,7 +90,7 @@
 		● Updating weights and biases
 		
 		● Understanding computational graphs\\\\\\
-9. [ ] Gradient Descent Variants
+8. -  Gradient Descent Variants
 
 		● Batch Gradient Descent
 		
@@ -102,7 +102,7 @@
 		
 				○ Balancing between batch and SGD
 
-10. [ ] Optimization Algorithms
+9. -  Optimization Algorithms
 
 		● Momentum
 				
@@ -124,7 +124,7 @@
 		
 				○ Combining momentum and RMSProp
 
-11. [ ] Regularization Techniques
+10. -  Regularization Techniques
 		
 		● L1 and L2 Regularization
 		
@@ -138,7 +138,7 @@
 		
 				○ Halting training when validation loss increases
 
-12. [ ] Hyperparameter Tuning
+11. -  Hyperparameter Tuning
 		
 		● Learning Rate
 		
@@ -162,7 +162,7 @@
 		
 		○ Bayesian optimization
 
-13. [ ] Vanishing and Exploding Gradients
+12. -  Vanishing and Exploding Gradients
 
 		● Problems in deep networks
 		
@@ -172,13 +172,13 @@
 				
 				○ Use of ReLU activation functions
 
-14. [ ] Weight Initialization Strategies
+13. -  Weight Initialization Strategies
 
 		● Xavier/Glorot Initialization
 		
 		● He Initialization
 
-15. [ ] Batch Normalization
+14. -  Batch Normalization
 
 		● Normalizing inputs of each layer
 		

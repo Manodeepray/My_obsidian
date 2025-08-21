@@ -13,13 +13,44 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "mandal_sir/multimodal editing/papers.md",
+                "file": "projects/major_project_1/majrorProject.excalidraw.md",
                 "mode": "source",
                 "source": false
-              }
+              },
+              "icon": "lucide-file",
+              "title": "majrorProject.excalidraw"
+            }
+          },
+          {
+            "id": "028f8077f5a4c508",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/major_project_1/major project.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "major project"
+            }
+          },
+          {
+            "id": "8e2fb74fe6a6ca33",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "projects/major_project_1/todo.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "todo"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -38,8 +69,11 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
-              }
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
             }
           },
           {
@@ -54,7 +88,9 @@
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
-              }
+              },
+              "icon": "lucide-search",
+              "title": "Search"
             }
           },
           {
@@ -62,7 +98,9 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
-              "state": {}
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
             }
           }
         ]
@@ -85,7 +123,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "mandal_sir/multimodal editing/papers.md",
+                "file": "projects/major_project_1/todo.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -93,7 +131,9 @@
                 "searchQuery": "",
                 "backlinkCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for todo"
             }
           },
           {
@@ -102,10 +142,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "mandal_sir/multimodal editing/papers.md",
+                "file": "projects/major_project_1/todo.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from todo"
             }
           },
           {
@@ -115,8 +157,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              }
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -125,8 +171,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "mandal_sir/multimodal editing/papers.md"
-              }
+                "file": "projects/major_project_1/todo.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of todo"
             }
           }
         ]
@@ -146,8 +197,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "a0e941868f018440",
+  "active": "8e2fb74fe6a6ca33",
   "lastOpenFiles": [
+    "projects/major_project_1/major project.md",
+    "projects/major_project_1/majrorProject.excalidraw.md",
+    "projects/minor Project/todo.md",
     "My_obsidian/README.md",
     "My_obsidian",
     "mandal_sir/multimodal editing/multimodal editing.md",

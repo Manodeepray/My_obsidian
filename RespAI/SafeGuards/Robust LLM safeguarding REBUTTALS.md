@@ -367,7 +367,7 @@
         
     - **Specific Attacks:**
         
-        - [6] and [7] were not peer-reviewed and had few citations at submission time.
+        - and [7] were not peer-reviewed and had few citations at submission time.
             
         - TAP [5] is well-known but highly similar to the PAIR attack already tested.
             

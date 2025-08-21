@@ -2,7 +2,3 @@
 
 
 
-
-- [ ]  need to read  
-	- [ ] hyperLora
-	- [ ] teleLora

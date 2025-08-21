@@ -2,21 +2,6 @@
 
 
 
-- [ ] Soft attention (Deterministic)
-- [ ] Hard attention (Stochastic) 
-- [x] Self-attention 
-- [ ] Cross-Attention (Encoder-Decoder attention)  
-- [x] Multi-Head Attention (MHA)   [[Multi-Head Attention]]
-- [ ] Multi-Head Latent Attention (MLA)  
-- [ ] Memory-Based attention  
-- [ ] Adaptive attention 
-- [ ] Scaled Dot-Product attention 
-- [ ] Additive attention  
-- [ ] Global attention  
-- [ ] Local attention 
-- [ ] Sparse attention 
-- [ ] Hierarchical attention 
-- [ ] Temporal attention
 
 
 

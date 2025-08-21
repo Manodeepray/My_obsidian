@@ -12,7 +12,7 @@
 	- [ ] 11
 - [ ] ml sys [[ml systems.pdf]]
 	- [ ] 
-- [ ] llm course [[My_obsidian/summer_progress/LLMS|LLMS]]
+- [ ] llm course [[My_obsidian/learning/progress/LLMS|LLMS]]
 	- [ ] week 2
 	- [ ] week 3
 	- [ ] week 4
@@ -55,7 +55,7 @@
             ∟  Python / Go / JavaScript (Start HERE)
 
 
-[[My_obsidian/summer_progress/LLMS|LLMS]]
+[[My_obsidian/learning/progress/LLMS|LLMS]]
 Challenges:
 1. Convert nf4 / BnB 4bit to Triton
 2. Make FSDP2 work with QLoRA

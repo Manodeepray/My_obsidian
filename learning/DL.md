@@ -1,6 +1,13 @@
 https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb
 
-### cs230
+### cs231n
 
 
 ### ian good fellow book 
+
+## dl mathematics
+
+## d2l.ai
+
+## pytorch , cuda , jit , ...
+

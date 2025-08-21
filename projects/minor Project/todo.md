@@ -14,39 +14,39 @@ decide if
 
 ### server - node
 
-- [ ] deploy model
-- [ ] add server client architecture
-- [ ] send crop images as batch to -> deployed model
-- [ ] add to database
+- deploy model
+- add server client architecture
+- send crop images as batch to -> deployed model
+- add to database
 
 
 ### code
-- [ ]  refactoring the code 	
+-  refactoring the code 	
 - into class -
 		- FaceDet 
 		- FaceRecog
 		- inbuilt function
 		-
-- [ ] attendance logic - padding   
+- attendance logic - padding   
 
 
 ### model
-- [ ] use Deepface 
+- use Deepface 
 	- use one shot  
 	- VGGface
-- [ ] or use larger model
+- or use larger model
 
 
 #### pytorch
-- [ ] onnx
-- [ ] quantize
-- [ ] batch inference
-- [ ] add bits and bytes for faster inference
+- onnx
+- quantize
+- batch inference
+- add bits and bytes for faster inference
 
 
 
 ### LLM
-- [ ] Integrate LLM
-- [ ] KV pressing for longer context for summarizing entire lecture
-- [ ] quantize
-- [ ] finetune
+- Integrate LLM
+- KV pressing for longer context for summarizing entire lecture
+- quantize
+- finetune

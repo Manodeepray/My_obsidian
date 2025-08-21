@@ -1,36 +1,28 @@
+-  code
+  - [ ] kg creation major project
+  - [ ] newari translation
+  - [x] dual distillation
 
------------------------ Morning ----------------------------------
+- ml
+  - [ ] lec 6
+  - [ ] lec 7
+  - [ ] lec 8
+  - [ ] book ch2
+  - [ ] ps 0 - 3
+  - [ ] ps 1
 
-dsa
-	binary search full , hash full 
-	two pointer question from leetcode
-	some algo explaiation
-os
+- maths
+  - [x] 3b1b lin alg playlist last few
+  - [ ] m4ml ch 2 - 2.7 , 2.8
 
+-  papers
+  - [ ] cb
+  - [ ] lat
+  - [ ] self destruction
+  - [ ] ppt
 
-maths
-	que ans chapter 2
-
-
-
-
------------------------- Noon -> Evening --------------------------------
-
-
-
-umar jamil 
-distributed
-
-quantization code 
-https://towardsai.net/p/artificial-intelligence/how-i-built-my-own-custom-8-bit-quantizer-from-scratch-a-step-by-step-guide-using-pytorch
-
-
-
-
-
----------------------------- NIGHT ----------------------------------------
-
-6. DIST system DL --> train (tab + amazon basics notepad) / backend read some more
-7. paper -> baselines math 
-
-
+-  misc
+  - [ ] rl syllabus
+  - [ ] dl maths syllabus
+  - [ ] dl ian good fellow syllabus
+  - [ ] d2l.ai

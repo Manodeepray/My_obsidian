@@ -10,7 +10,7 @@ Absolutely — here's a **high-intensity 3-day crash schedule** to help you get 
 	paged optimizations
 
 ---
-
+- [ ] 
 ## ✅ OVERALL GOAL (LLM-Focused)
 
 By the end of **Day 3**, you’ll have:
@@ -38,7 +38,7 @@ By the end of **Day 3**, you’ll have:
 | 2 PM – 6 PM  | ==LLM from Scratch (PyTorch)== | ==- Implement minimal GPT2-style Transformer - Use sliding window for sequence generation - Train on toy dataset, plot loss, samples==                                                            |
 | 8 PM – 10 PM | ==GitHub + Blog Inspiration==  | ==- Explore: [nanoGPT](https://github.com/karpathy/nanoGPT), [minGPT](https://github.com/karpathy/minGPT) - Read blog: [A GPT in 60 lines of code](https://jaykmody.com/blog/gpt-from-scratch/)== |
 |              |                                |                                                                                                                                                                                                   |
-- [x] check nanogpt from nn/nn/llm/nanogpt
+
 
 ## ⚡️ Day 2: Paper Reproduction + MLOps + System Setup
 

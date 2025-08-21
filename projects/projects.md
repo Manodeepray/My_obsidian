@@ -1,5 +1,8 @@
 ## Beginner to Intermediate Projects
 
+iilya sutskev 30 papers
+yash twitters models
+
 ### 1. English to Newari Translation using Multi-Technique Finetuning
 
 **Title:** Multistrategy Translation for Low-Resource Language Pairs (English → Newari)
@@ -8,7 +11,7 @@
     
 - Evaluated using BLEU, chrF++, TER, and conducted error pattern analysis across domains.
     
-- Deployed with a Streamlit app and added a mini MLOps pipeline (logging, checkpointing, profiling, CLI).
+- Deployed with a Streamlit app and added a mini MLOps pipeline (logging, checkpointing, profiling, CLI). hf spaces
     
 
 **Keywords:** NMT, LoRA, QLoRA, Low-Resource Translation, chrF++, HuggingFace
@@ -42,6 +45,7 @@
     
 - Applied to HuggingFace Transformers with custom training loop.
     
+jit?
 
 **Keywords:** Backpropagation, Memory Optimization, Custom Autograd
 
