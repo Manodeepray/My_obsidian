@@ -7,10 +7,82 @@ http://www.math.utah.edu/~zwick/Classes/Fall2012_2270/
 [# The Complete Mathematics of Neural Networks and Deep Learning](https://www.youtube.com/@adamdhalla1270)
 
 
-### intro to prob
 
 
-### stats110
+
+# 3blue 1 brown 
+
+### linear algebra
+https://www.3blue1brown.com/topics/linear-algebra
+
+- [x] Vectors: What even are they?
+    - [x] Multiple interpretations for vectors
+    - [x] Operations on vectors
+- [x] Linear combinations, span, and basis vectors
+    - [x] Span and linear combinations
+    - [x] Linear dependence
+- [x] Linear transformations and matrices
+    - [x] Matrices as transformations
+    - [x] Visualizing matrix actions
+- [x] Matrix multiplication as composition
+    - [x] Visual intuition for matrix multiplication
+    - [x] Successive linear transformations
+- [x] Three-dimensional linear transformations
+    - [x] 3×3 matrices transforming 3D space
+- [x] The determinant
+    - [x] Visual intuition for the determinant
+- [x] Inverse matrices, column space, and null space
+    - [x] Column space and null space (visual)
+    - [x] Matrix inverses
+- [x] Nonsquare matrices as transformations between dimensions
+    - [x] Transformations with nonsquare matrices
+- [x] Dotproducts and duality
+    - [x] Meaning of the dot product
+    - [x] Formula and visualization
+
+- [x] Cross products
+    - [x] Visualizing the cross product
+
+- [x] Cross products in the light of linear transformations
+    - [x] Connection between cross products and determinants
+
+- [ ] Cramer's rule, explained geometrically
+    - [ ] What is Cramer's rule?
+    - [ ] Geometric explanation
+
+- [x] Change of basis
+    - [x] What is a change of basis?
+    - [x] How to perform a change of basis
+
+- [x] Eigenvectors and eigenvalues
+    - [x] Understanding eigenvalues/eigenvectors
+
+- [ ] A quick trick for computing eigenvalues
+    - [ ] Fast computation for 2×2 matrices
+
+- [x] Abstract vector spaces
+    - [x] General idea of vector spaces
+    - [x] Vectors as more than just arrows/numbers
+
+
+
+
+
+
+# khan academy
+
+
+
+
+# intro to prob
+
+
+# stats110
+
+
+
+
+
 
 
 # maths4ml
@@ -134,56 +206,3 @@ http://www.math.utah.edu/~zwick/Classes/Fall2012_2270/
 
 
 
-# 3blue 1 brown 
-
-## linear algebra
-https://www.3blue1brown.com/topics/linear-algebra
-
-- [x] Vectors: What even are they?
-    - [x] Multiple interpretations for vectors
-    - [x] Operations on vectors
-- [x] Linear combinations, span, and basis vectors
-    - [x] Span and linear combinations
-    - [x] Linear dependence
-- [x] Linear transformations and matrices
-    - [x] Matrices as transformations
-    - [x] Visualizing matrix actions
-- [x] Matrix multiplication as composition
-    - [x] Visual intuition for matrix multiplication
-    - [x] Successive linear transformations
-- [x] Three-dimensional linear transformations
-    - [x] 3×3 matrices transforming 3D space
-- [x] The determinant
-    - [x] Visual intuition for the determinant
-- [x] Inverse matrices, column space, and null space
-    - [x] Column space and null space (visual)
-    - [x] Matrix inverses
-- [x] Nonsquare matrices as transformations between dimensions
-    - [x] Transformations with nonsquare matrices
-- [x] Dotproducts and duality
-    - [x] Meaning of the dot product
-    - [x] Formula and visualization
-
-- [x] Cross products
-    - [x] Visualizing the cross product
-
-- [x] Cross products in the light of linear transformations
-    - [x] Connection between cross products and determinants
-
-- [ ] Cramer's rule, explained geometrically
-    - [ ] What is Cramer's rule?
-    - [ ] Geometric explanation
-
-- [x] Change of basis
-    - [x] What is a change of basis?
-    - [x] How to perform a change of basis
-
-- [x] Eigenvectors and eigenvalues
-    - [x] Understanding eigenvalues/eigenvectors
-
-- [ ] A quick trick for computing eigenvalues
-    - [ ] Fast computation for 2×2 matrices
-
-- [x] Abstract vector spaces
-    - [x] General idea of vector spaces
-    - [x] Vectors as more than just arrows/numbers

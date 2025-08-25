@@ -203,3 +203,93 @@ Let me know if you'd like:
 - GitHub README.md template
     
 - Notion portfolio layout
+
+
+
+
+# 🚀 Project To-Do List
+
+====== Beginner to Intermediate ======
+
+- [ ] Ilya Sutskever – 30 papers  
+  - [ ] Read & summarize  
+  - [ ] Replicate core ideas  
+
+- [ ] Yash’s Twitter models  
+  - [ ] Explore  
+  - [ ] Replicate  
+
+- [ ] English → Newari Translation (mBART/BLOOMZ)  
+  - [ ] Implement LoRA  
+  - [ ] Implement QLoRA  
+  - [ ] Full finetuning  
+  - [ ] Evaluate (BLEU, chrF++, TER)  
+  - [ ] Error analysis across domains  
+  - [ ] Deploy (Streamlit + HF Spaces + mini MLOps)  
+
+- [ ] Paper Reimplementations (LoRA / QLoRA / CoT / Self-Instruct)  
+  - [ ] LoRA/QLoRA with GPT2, Mistral, T5  
+  - [ ] Self-Instruct + Evol-Instruct pipelines  
+  - [ ] Chain-of-Thought experiments (GSM8K, StrategyQA, SVAMP)  
+
+
+====== Intermediate to Advanced ======
+
+- [ ] Memory-Efficient Backpropagation  
+  - [ ] Manual checkpointing & recomputation  
+  - [ ] Custom autograd backward pass  
+  - [ ] Apply to HuggingFace Transformers  
+
+- [ ] Paged Optimizer + Distributed Engine  
+  - [ ] Integrate PagedAdamW with DDP/FSDP  
+  - [ ] Benchmark throughput, memory, convergence  
+
+- [ ] GRPO/DAPO Reasoning Distillation  
+  - [ ] Reproduce GRPO, DAPO pipelines  
+  - [ ] Distill CoT into student models (DistilBERT, TinyLLMs)  
+
+- [ ] Distributed Training & Inference (Core PyTorch + Triton)  
+  - [ ] End-to-end DDP, FSDP, TorchDynamo  
+  - [ ] Triton inference with NF4/BNB models  
+  - [ ] Profiling + benchmarking CLI  
+
+- [ ] LLM + RL Planning Agent over Knowledge Graphs  
+  - [ ] PPO/DQN with symbolic graphs  
+  - [ ] Long-horizon CoT reasoning  
+  - [ ] Experiments: MiniGrid, KG games  
+
+- [ ] Finetuning LLaMA2-70B  
+  - [ ] Efficient training (FSDP + checkpointing + paged optimizer)  
+  - [ ] Benchmark with MT-Bench, AlpacaEval  
+  - [ ] Deploy via Triton inference  
+
+
+====== Advanced & Research-Level ======
+
+- [ ] Trajectory Generation with Diffusion Transformer  
+  - [ ] DiT policy head + multimodal embeddings  
+  - [ ] Train with cosine schedule, timestep embeddings  
+  - [ ] Evaluate trajectory robustness & diversity  
+
+- [ ] Low-Level Torque & Motion Control  
+  - [ ] PID-based torque mapping (Franka, UR5)  
+  - [ ] Simulations in MuJoCo + Isaac Gym  
+  - [ ] Language-guided tasks & feedback loops  
+
+- [ ] Advanced Paper Reproductions (2023–2025)  
+  - [ ] DreamerV3 (world models)  
+  - [ ] Hierarchical Reasoning (Wang et al., 2025)  
+  - [ ] DeepSeek V2/V3 (MoE)  
+  - [ ] Toolformer (API calling)  
+  - [ ] RecurrentGPT (transformer memory)  
+  - [ ] Kosmos-2 (vision-language grounding)  
+  - [ ] FlashAttention v2 (kernel optimization)  
+  - [ ] Diffusion Transformers (DiT, SDXL)  
+
+
+====== Infra / Tooling (Ongoing) ======
+
+- [ ] HuggingFace Accelerate, DeepSpeed, FSDP  
+- [ ] Weights & Biases logging + profiling + CLI tools  
+- [ ] TorchServe / Triton / ONNX deployment  
+- [ ] LangChain, ReAct, AutoGPT for prompting  

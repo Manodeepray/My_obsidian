@@ -1,28 +1,47 @@
--  code
-  - [ ] kg creation major project
-  - [ ] newari translation
-  - [x] dual distillation
+====== morning =========
+*(empty / free)*  
 
-- ml
-  - [ ] lec 6
-  - [ ] lec 7
-  - [ ] lec 8
-  - [ ] book ch2
-  - [ ] ps 0 - 3
-  - [ ] ps 1
+====== lunch =========
+- maths  
+  - [x] 3b1b lin alg playlist last few  
+  - [ ] m4ml ch 2 (2.7, 2.8)  
 
-- maths
-  - [x] 3b1b lin alg playlist last few
-  - [ ] m4ml ch 2 - 2.7 , 2.8
+====== evening =========
+- ml  
+  - [ ] lec 6  
+  - [ ] lec 7  
+  - [ ] lec 8  
+  - [ ] book ch2  
+  - [x] ps 0 - 3  
+  - [ ] ps 1  
 
--  papers
-  - [ ] cb
-  - [ ] lat
-  - [ ] self destruction
-  - [ ] ppt
+- papers  
+  - [ ] lat  
+  - [ ] booster
+  - [ ] virus
+  - [ ] npo
+  - [ ] reverse kl
 
--  misc
-  - [ ] rl syllabus
-  - [ ] dl maths syllabus
-  - [ ] dl ian good fellow syllabus
-  - [ ] d2l.ai
+====== night =========
+- code  
+  %% - [ ] kg creation major project %%  
+  %% - [ ] newari translation %%  
+  - [ ] dual distillation  
+    - [ ] harmful finetuning dataset creation  
+      - [ ] h->h  
+      - [ ] b->h  
+    - [ ] harmless finetuning dataset creation  
+      - [ ] b->b  
+      - [ ] h->b  
+    - [ ] super bad teacher llm  
+    - [ ] gather benign teacher  
+    - [ ] implement the distillation  
+    - [ ] evaluate benchmark  
+    - [ ] implement the perturbation  
+    - [ ] implement the canary  
+
+- misc  
+  - [ ] rl syllabus  
+  - [ ] dl maths syllabus  
+  - [ ] dl ian good fellow syllabus  
+  - [ ] d2l.ai  

@@ -1,3 +1,4 @@
+
  ### [CS229](https://www.youtube.com/watch?v=het9HFqo1TQ&list=PLoROMvodv4rMiGQp3WXShtMGgzqpfVfbU&index=4) 
 
 - [x] lec2 
@@ -33,12 +34,11 @@
 - [ ] lec20
 
 
-- [ ] PS 0 
+- [x] PS 0 
 - [ ] PS 1
 - [ ] ps 2
 - [ ] ps 3
 - [ ] ps 4
-- [ ] ps 5
 
 
 
