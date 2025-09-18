@@ -72,7 +72,7 @@ This phase incorporates two preparatory strategies:
         
     - **NPO Loss (LNPO​):** This loss specifically penalizes the generation of the exact `harmful_response`, pushing the probability of that sequence down.
         
-    - **Reverse KL Refusal Loss (LRKL​):** This loss calculates the negative Reverse KL Divergence, −KL(student∣∣harmful_teacher). It forces the student model's entire response distribution to move away from the harmful teacher's strategy, promoting a broader form of refusal.
+    - **negative KL Refusal Loss (LRKL​):** This loss calculates the negative forward  KL Divergence, −KL(student∣∣harmful_teacher). It forces the student model's entire response distribution to move away from the harmful teacher's strategy, promoting a broader form of refusal.
         
     - The two losses are combined into a final refusal loss:
         

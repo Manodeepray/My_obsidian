@@ -1,14 +1,20 @@
 [# Mathematics for Machine Learning Tutorial (3 Complete Courses in 1 video)](https://www.youtube.com/watch?v=0z6AhrOSrRs)
 
-[stats 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&index=1)
+
 http://www.math.utah.edu/~zwick/Classes/Fall2012_2270/
 
 
 [# The Complete Mathematics of Neural Networks and Deep Learning](https://www.youtube.com/@adamdhalla1270)
 
 
+https://www.youtube.com/channel/UCcAtD_VYwcYwVbTdvArsm7w
+
+https://medium.com/analytics-vidhya/mathematics-for-ml-is-difficult-7bbe1287105b
+https://www.youtube.com/c/ProfJeffreyChasnov
 
 
+
+![[Pasted image 20250826165258.png]]
 
 # 3blue 1 brown 
 
@@ -71,17 +77,55 @@ https://www.3blue1brown.com/topics/linear-algebra
 
 # khan academy
 
+https://www.khanacademy.org/math/linear-algebra?source=post_page-----7bbe1287105b---------------------------------------
 
+https://www.khanacademy.org/math/multivariable-calculus?source=post_page-----7bbe1287105b---------------------------------------
 
+https://www.khanacademy.org/math/statistics-probability?source=post_page-----7bbe1287105b---------------------------------------
 
 # intro to prob
 
 
 # stats110
 
+[stats 110](https://www.youtube.com/watch?v=KbB0FjPg0mw&list=PL2SOU6wwxB0uwwH80KTQ6ht66KWxbzTIo&index=1)
 
 
-
+- [x] Lecture 1
+- [x] Lecture 2
+- [x] Lecture 3
+- [ ] Lecture 4
+- [ ] Lecture 5
+- [ ] Lecture 6
+- [ ] Lecture 7
+- [ ] Lecture 8
+- [ ] Lecture 9
+- [ ] Lecture 10
+- [ ] Lecture 11
+- [ ] Lecture 12
+- [ ] Lecture 13
+- [ ] Lecture 14
+- [ ] Lecture 15
+- [ ] Lecture 16
+- [ ] Lecture 17
+- [ ] Lecture 18
+- [ ] Lecture 19
+- [ ] Lecture 20
+- [ ] Lecture 21
+- [ ] Lecture 22
+- [ ] Lecture 23
+- [ ] Lecture 24
+- [ ] Lecture 25
+- [ ] Lecture 26
+- [ ] Lecture 27
+- [ ] Lecture 28
+- [ ] Lecture 29
+- [ ] Lecture 30
+- [ ] Lecture 31
+- [ ] Lecture 32
+- [ ] Lecture 33
+- [ ] Lecture 34
+- [ ] Lecture 35
 
 
 
@@ -206,3 +250,13 @@ https://www.3blue1brown.com/topics/linear-algebra
 
 
 
+
+
+# linear algerbra gilbert strang
+
+http://web.mit.edu/18.06
+
+lec 1-->35
+
+
+book 8 units  each for 4 to 5 chappters

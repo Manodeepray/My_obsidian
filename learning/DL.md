@@ -1,13 +1,15 @@
 https://www.youtube.com/playlist?list=PLoROMvodv4rOABXSygHTsbvUz4G_YQhOb
 
-### cs231n
+## cs231n
 
 
-### ian good fellow book 
+## ian good fellow book 
 
 ## dl mathematics
 
 ## d2l.ai
+
+##  umar jamil
 
 ## pytorch , cuda , jit , ...
 

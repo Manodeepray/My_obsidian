@@ -1,0 +1,6 @@
+ppl
+
+
+virus
+
+Metrics. Following (Rosati et al., 2024b; Hsu et al., 2024; Huang et al., 2024e;b), we consider two main metrics: • Harmful Score. This metric measures the ratio of harmful questions that the LLM will deliver harmful answers. The higher this metric is, the more harmful the model is. To classify whether an answer is harmful, we use the moderation model from BeaverTails. • Finetune Accuracy. This metric measure the accuracy of the downstream task. For example, for GSM8K, we measure the ratio of questions that the model is able to give correct answer. To calculate the harmful score, we sample 1000 instructions from the testing set of BeaverTails (Ji et al., 2023). To calculate finetune accuracy, we sample 872, 1000, 1000 samples respectively from fine-tuning dataset SST2, AGNEWS, GSM8K. Both the two metrics are measured on the fine-tuned model (i.e., after two-stage training). Additionally, we measure the leakage ratio of the moderation model, which measures the percentage of harmful samples that can leak through the guardrail moderation. Baselines. We evaluate on BFA, HFA, Mixing and Virus. See Appendix B for detailed discussion

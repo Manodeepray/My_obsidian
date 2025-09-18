@@ -18,6 +18,9 @@
 	- [x] discriminative and generative algorithm comparison
 	- [x] naive bayes
 - [ ] lec6
+	- [ ] naive bayes
+		- [ ] laplace smoothing
+	- [ ] svm
 - [ ] lec7
 - [ ] lec8
 - [ ] lec9
@@ -45,8 +48,8 @@
 
 ### ML BOOK
 
-- [ ] ch2
-	- [ ] supervised learning rationale basics
+- [x] ch2
+	- [x] supervised learning rationale basics
 - [ ] statistics
 
  
