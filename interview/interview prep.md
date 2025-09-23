@@ -2,6 +2,9 @@ This is a _fantastic_ Research Assistant opportunity, and you’re already close
 
 ---
 
+https://physics.allen-zhu.com/part-1
+
+
 https://www.linkedin.com/posts/sairam-sundaresan_2025-ai-interviews-are-brutal-these-12-repos-activity-7354469223194136576-ZGDN/
 # interview summary
 ### ✅ **1. Brush Up Technical Foundations (Must-Have Skills)**
