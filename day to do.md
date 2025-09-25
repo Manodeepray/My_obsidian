@@ -17,35 +17,18 @@ papers
 	- [ ] linear algebra
 
 		- [ ] lec 6
+		- [x] lec 5
 		- [ ] lec 7
 		- [ ] lec 8
 		- [ ] lec 9
 		- [ ] lec 10
-		- [ ] excercies from book
-	- [ ] stats
-	- [ ] probs
-	- [ ] data sci one shot
-	- [ ] 
-- [ ] code 
-	- [ ] dsa
-	- [ ] python  
-	- [ ] cpp
-	- [ ] project some for resume
+		
 
-
-dl
-- [ ] d2l.ai
-	- [ ] solve code
 
 
 
 ### work
-  
 
-
-sih
-	[[sih]] x3
-	indian palantir
 Mats 
 	mechanistic interpret resources  [link](https://docs.google.com/document/d/1p-ggQV3vVWIQuCccXEl1fD0thJOgXimlbBpGk6FI32I/edit?tab=t.knytn7x826kv#heading=h.absnolmzwkw9)
 reft papers

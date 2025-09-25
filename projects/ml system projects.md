@@ -1,3 +1,10 @@
+
+![[Pasted image 20250925143035.png]]
+
+![[Pasted image 20250925142955.png]]
+
+![[Pasted image 20250925143016.png]]
+
 ### Enhancing OpenAI’s GPT-OSS with Multimodal Vision Capabilities extensible to ISRO EO Data
 
 **Background:** Large Language Models (LLMs) have achieved remarkable performance in natural language understanding and generation. 
@@ -184,6 +191,11 @@ You asked about multimodal reasoning. This is a prime area for innovation that t
 
 ### **Foundational AI and Efficient Architectures for Edge and Embedded Systems**
 
+
+https://gemini.google.com/app/b3a88ead75cee203 
+
+compression techniques
+
 This phrase is about creating **new AI methods** and **hardware/software designs** that can run AI models on **edge devices** (like smartphones, IoT sensors, drones, medical devices, or smart cameras) rather than only on big cloud servers.
 
 ---
@@ -242,3 +254,19 @@ This phrase is about creating **new AI methods** and **hardware/software designs
 
 #### take stuff from large inference providers that use to make llm's faster ...
 ### ---
+
+
+### anti diffusion/deepfake image processor .
+
+
+anti what arch --- all ai?
+	only deepfake
+	only diffusion
+	only transformer based
+	only cnn based 
+
+cuda kernels
+implement papers
+what about administration needs to use it
+what about  key to pattern and move the pattern it  
+### ----

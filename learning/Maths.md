@@ -81,7 +81,7 @@ https://www.khanacademy.org/math/linear-algebra?source=post_page-----7bbe1287105
 
 https://www.khanacademy.org/math/multivariable-calculus?source=post_page-----7bbe1287105b---------------------------------------
 
-https://www.khanacademy.org/math/statistics-probability?source=post_page-----7bbe1287105b---------------------------------------
+done https://www.khanacademy.org/math/statistics-probability?source=post_page-----7bbe1287105b---------------------------------------
 
 # intro to prob
 

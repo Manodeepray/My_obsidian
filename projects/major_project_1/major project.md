@@ -1,4 +1,8 @@
 
+
+hsnw vecotor database
+bm25 embedding
+
 https://g.co/gemini/share/f30ad486000d
 
 https://gemini.google.com/app/a322e59f573bbb72
