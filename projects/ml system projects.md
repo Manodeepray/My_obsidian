@@ -1,4 +1,4 @@
-
+https://docs.google.com/spreadsheets/d/1F7GnzdyrGwAfrClx_lsnFrdCUkM5ji3zCxAoDflCqXg/edit?gid=1478931401#gid=1478931401
 ![[Pasted image 20250925143035.png]]
 
 ![[Pasted image 20250925142955.png]]
