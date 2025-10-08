@@ -1,4 +1,4 @@
-ge
+graph search .. find named entities from the pramodith b. post ..make graph nodes over entire corpus for  appearance of the entities .. then do search algorithm .. ..nodes could have link to paragraph , docs , etc .. look for another post for google's knowledge grapg or something ..linkedin likes if possible
 
 hsnw vecotor database
 bm25 embedding

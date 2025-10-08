@@ -251,7 +251,7 @@ This phrase is about creating **new AI methods** and **hardware/software designs
         - **Hardware-aware neural architecture search (NAS)**
 
 
-
+https://chatgpt.com/c/68deb699-e8a8-8333-9d1e-1deeb3361e78
 #### take stuff from large inference providers that use to make llm's faster ...
 ### ---
 
@@ -268,5 +268,14 @@ anti what arch --- all ai?
 cuda kernels
 implement papers
 what about administration needs to use it
+
+
 what about  key to pattern and move the pattern it  
+
+
+https://arxiv.org/pdf/2302.04222
+
+https://medium.com/byte-sized-ai/multi-modal-vision-language-models-architecture-and-key-design-considerations-88752b8f63b2
+
+https://chatgpt.com/c/68e56ba1-6da4-8320-8c71-c48912a0372c
 ### ----

@@ -18,10 +18,10 @@ papers
 
 		- [x] lec 6
 		- [x] lec **5**
-		- [ ] lec 7
-		- [ ] lec 8
-		- [ ] lec 9
-		- [ ] lec 10
+		- [x] lec 7
+		- [x] lec 8
+		- [x] lec 9
+		- [x] lec 10
 		
 
 
