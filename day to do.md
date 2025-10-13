@@ -22,15 +22,64 @@ papers
 		- [x] lec 8
 		- [x] lec 9
 		- [x] lec 10
-		
-
-
-
+		- [x] 11
+		- [x] 12
+		- [x] q1
+		- [ ] ps1
+		- [ ] ps2
+		- [ ] ps3
+		- [ ] lec 13
+		- [ ] 14
+		- [ ] 15
+		- [ ] 16
+		- [ ] 17
+		- [ ] 18
+		- [ ] 19
+		- [ ] 20
+	- [ ] calculus
+	- [ ] datascience
+		- [x] d1
+		- [x] d2
+		- [ ] d3
+		- [ ] d4
+		- [ ] d5
+		- [ ] d6
+		- [ ] d7
 
 ### work
 
+- [ ] aiSec aisec ... 
+	- [ ] nautilus float chat ,
+	- [ ]  medusa image , 
+	- [ ] midas , politician 
+
+- [ ] major project
+    - [ ] data ingestion
+    - [ ] vectors to hsnw
+    - [ ] optimize hsnw
+    - [ ] entity xtrction
+- [ ] kpit solution
+- [ ] unsloth solution
+- [ ] moe
+- [ ] image sec
+
+
+paper
+- [ ] read more about
+    - [ ] reft
+    - [ ] distillation
+    - [ ] perturbation
+    - [ ] canary neurons , mechanistic approach
+    - [ ] losses
+- [ ] value unlearning re-read 
+- [ ] wegeft code , reft code , etc
+- [ ] implement reft
+- [ ] lat eval
+
+
+
 mechanistic interpret resources  [link](https://docs.google.com/document/d/1p-ggQV3vVWIQuCccXEl1fD0thJOgXimlbBpGk6FI32I/edit?tab=t.knytn7x826kv#heading=h.absnolmzwkw9)
-reft papers
+papers
 alignment papers
 
 

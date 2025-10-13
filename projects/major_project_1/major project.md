@@ -1,7 +1,32 @@
-graph search .. find named entities from the pramodith b. post ..make graph nodes over entire corpus for  appearance of the entities .. then do search algorithm .. ..nodes could have link to paragraph , docs , etc .. look for another post for google's knowledge grapg or something ..linkedin likes if possible
+graph search .. find named entities from the pramodith b. post ..make graph nodes over entire corpus for  appearance of the entities .. then do search algorithm .. ..
+
+nodes could have link to paragraph , docs , etc .. look for another post for google's knowledge grapg or something ..linkedin likes if possible
 
 hsnw vecotor database
 bm25 embedding
+
+knowledgge graph will be for after the extraction on a large quantity
+
+
+o/p of the pipeline .. lots of docs .. make a heirarchical kg / prompt based kg .. take  a prompt and break it into more 
+-> one will be full resources hkg
+-> then for each prompt
+-> entity option to search and connect through relation 
+-> dynamically create relation between  then entities 
+-> use  batch to collect all entities from each  chunk and save + take all the entites and generate relationship ... each chunk should have some entities / summary / topic / metadata etc
+
+intent detection
+steps to fulfill intent
+->
+->
+->
+
+
+lots of documents.. then make a hkg 
+
+then search algorthm for traversing graph to fing connecitons betwee entities ..
+
+search will be a tool only 
 
 https://g.co/gemini/share/f30ad486000d
 
