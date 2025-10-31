@@ -40,19 +40,6 @@
 	- [ ] world
 
 
- Backend Engineer [[systems_design_interview.pdf]]
-        ∟API Design & REST & grpc
-        ∟ Databases
-            ∟ PostgreSQL / MongoDB
-        ∟ Authentication & Authorization
-        ∟ Background Jobs & Queues
-        ∟ Docker & CI/CD
-        ∟ Cloud (AWS / Azure / GCP)
-        ∟ Caching (Redis, Memcached)
-        ∟ Observability & Logging
-        ∟ System Design
-        ∟ Programming Language
-            ∟  Python / Go / JavaScript (Start HERE)
 
 
 [[My_obsidian/learning/progress/LLMS|LLMS]]
@@ -78,19 +65,3 @@ all the different paradigms too -- layer norm
 2. **Model Optimization Pipeline**
     
     - Show your ability to convert models to ONNX, optimize with TensorRT, and benchmark them on CPU vs GPU vs edge.
-        
----
-
-## 🔧 Additional Skill Suggestions for ML/DL Roles
-
-- **Docker** (highly expected for deployment)
-    
-- **Model Serving (ONNX, TorchServe, TensorRT)**
-    
-- **MLFlow or Weights & Biases** for experiment tracking
-    
-- **Parallel processing (multiprocessing, CUDA kernels)**    
-
-- **NLP**: ==LoRA==, QLoRA, PEFT fine-tuning
-    
-- **Prompt Engineering & LLM Evaluation**

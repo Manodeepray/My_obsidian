@@ -209,7 +209,12 @@ yash twitters models
 - Applied to HuggingFace Transformers with custom training loop.
     
 jit?
-
+https://www.youtube.com/results?search_query=autograd
+https://www.reddit.com/r/learnmachinelearning/comments/1epgitp/autograd_tutorial_on_gradient_calculation_in/
+https://docs.pytorch.org/docs/2.9/notes/autograd.html
+https://aschrein.github.io/jekyll/update/2025/08/23/compute_graph.html
+https://arxiv.org/abs/2503.13795
+https://github.com/atalw/fromthetensor
 **Keywords:** Backpropagation, Memory Optimization, Custom Autograd
 
 ---

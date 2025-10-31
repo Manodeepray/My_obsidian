@@ -6,9 +6,8 @@
 
 linear algebra
 llms summer --> inference etc -- speculative decoding 
-umar jamil + code
-python/cpp 
-papers
+whatsapp
+major project
 
 
 ### Learning
@@ -25,7 +24,7 @@ papers
 		- [x] 11
 		- [x] 12
 		- [x] q1
-		- [ ] ps1
+		- [x] ps1
 		- [ ] ps2
 		- [ ] ps3
 		- [ ] lec 13
@@ -36,45 +35,26 @@ papers
 		- [ ] 18
 		- [ ] 19
 		- [ ] 20
-	- [ ] calculus
-	- [ ] datascience
-		- [x] d1
-		- [x] d2
-		- [ ] d3
-		- [ ] d4
-		- [ ] d5
-		- [ ] d6
-		- [ ] d7
 
+	- [ ] aptitude
+		- [ ] percentage
+		- [ ] work wages
+
+	
 ### work
 
+- [x] major project
 - [ ] aiSec aisec ... 
 	- [ ] nautilus float chat ,
 	- [ ]  medusa image , 
 	- [ ] midas , politician 
-
-- [ ] major project
-    - [ ] data ingestion
-    - [ ] vectors to hsnw
-    - [ ] optimize hsnw
-    - [ ] entity xtrction
-- [ ] kpit solution
-- [ ] unsloth solution
-- [ ] moe
+- [x] unsloth solution
 - [ ] image sec
+- [ ] c++ primer
+- [ ] dual distil
 
 
-paper
-- [ ] read more about
-    - [ ] reft
-    - [ ] distillation
-    - [ ] perturbation
-    - [ ] canary neurons , mechanistic approach
-    - [ ] losses
-- [ ] value unlearning re-read 
-- [ ] wegeft code , reft code , etc
-- [ ] implement reft
-- [ ] lat eval
+
 
 
 

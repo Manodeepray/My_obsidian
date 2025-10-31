@@ -1,0 +1,18 @@
+- [ ] cai
+	- [ ] value unelarning
+	- [x] C3AI - # C3AI: Crafting and Evaluating Constitutions for Constitutional AI
+	- [ ] cai
+	- [ ] ega
+	- [ ] salmon
+	- [ ] iter align
+	- [ ] specific v CAI
+	- [ ] inverse cai
+- [ ] rl
+	- [ ] preference alignment
+	- [ ] dpo
+	- [ ] orpo
+	- [ ] ipo
+- [ ] tar
+- [ ] https://arxiv.org/pdf/2510.17558
+- [ ] thrml
+- [ ] 

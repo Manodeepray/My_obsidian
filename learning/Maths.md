@@ -256,7 +256,13 @@ done https://www.khanacademy.org/math/statistics-probability?source=post_page---
 
 http://web.mit.edu/18.06
 
-lec 1-->35
 
 
-book 8 units  each for 4 to 5 chappters
+- [x] datascience
+	- [x] d1
+	- [x] d2
+	- [x] d3
+	- [x] d4
+	- [x] d5
+	- [x] d6
+	- [x] d7
