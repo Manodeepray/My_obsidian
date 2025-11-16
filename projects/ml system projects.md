@@ -4,17 +4,21 @@ https://docs.google.com/spreadsheets/d/1F7GnzdyrGwAfrClx_lsnFrdCUkM5ji3zCxAoDflC
 ![[Pasted image 20250925142955.png]]
 
 ![[Pasted image 20250925143016.png]]
-
+https://aman.ai/primers/ai/top-30-papers/
 
 
 ### pytorch assistant 
 finetune on pytorch bugs
 cli/jupyter based agentt
-
+advance semantic + keyword +  vector rag pytorch pbunk
 
 ### free trasformer applications
+ocr
+vit
 pico banana dtataset
-
+sam
+clip
+sam
 
 
 

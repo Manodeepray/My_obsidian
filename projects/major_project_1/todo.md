@@ -1,9 +1,9 @@
-- [ ] heirarchical kG creation pipeline
+- [x] heirarchical kG creation pipeline
 	- [ ] first a simple ner kg creation with llm
 	- [ ] then heirarchical kg creation using llm
 	- [ ] then my method + heirarchical kg 
-- [ ] search algorithm
-- [ ] 
+- [x] search algorithm
+- [x] 
 
 
 how its gonna works is

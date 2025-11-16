@@ -13,3 +13,8 @@
 - who makes llm generate wmdp ?... need to stop hackers/ for cyber security info/exploiting agents
 - but wmdp use real life?
 - rlaif + negative reward for toxicity + DPO for safety
+
+>hyper  reft 
+>absolute models
+>pos encode attack on tar /safeguarded models/aligned models
+>dual dustilation with changable lora params

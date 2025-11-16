@@ -1,202 +1,18 @@
-Excellent question. You've identified some of the most exciting and critical frontiers in artificial intelligence. The path you're describing is one that leads to becoming a highly specialized and sought-after expert. It's a journey that combines the skills of a machine learning scientist, a software engineer, and a cybersecurity expert.
-
-Let's break down this journey into a roadmap, starting from the fundamentals and moving toward the expert-level destination you've envisioned.
-
-### Where You Start: The Foundation (Phase 1)
-
-This is the non-negotiable groundwork. You can't build a skyscraper on a weak foundation.
-
-1. **Mathematics:** You need to be deeply comfortable with the language of ML.
-    
-    - **Linear Algebra:** Vectors, matrices, tensors, eigenvalues. This is the bedrock of how neural networks are structured and computed.
-        
-    - **Calculus:** Derivatives and gradients are the engine of learning in deep learning (think backpropagation).
-        
-    - **Probability & Statistics:** Understanding distributions, likelihood, and statistical measures is key to understanding data, model uncertainty, and many security vulnerabilities.
-        
-2. **Programming & Computer Science:**
-    
-    - **Python:** Become an expert. Not just syntax, but proficiency with libraries like NumPy, Pandas, and Scikit-learn.
-        
-    - **Deep Learning Frameworks:** Master at least one, and be familiar with the other. The main two are **TensorFlow (with Keras)** and **PyTorch**.
-        
-    - **CS Fundamentals:** Strong understanding of data structures, algorithms, and system architecture. You need to know how the systems you're attacking or defending actually work.
-        
-3. **Core Machine Learning & Deep Learning:**
-    
-    - Understand the theory behind different models: Linear Regression, Logistic Regression, SVMs, Decision Trees.
-        
-    - Deeply understand Neural Networks: What is a neuron? An activation function? What are Dense, Convolutional (CNN), and Recurrent (RNN) layers? What are Transformers?
-        
-    - The Training Process: Understand loss functions, optimizers (like Adam), backpropagation, and the concept of overfitting and regularization.
-        
-4. **Cybersecurity Fundamentals:**
-    
-    - **The CIA Triad:** Confidentiality, Integrity, Availability. This is the core philosophy of security.
-        
-    - **Threat Modeling:** How to think like an attacker. What are the assets, threats, and vulnerabilities of a system?
-        
-    - **Common Attack Vectors:** Phishing, malware, buffer overflows, SQL injection, network attacks (Man-in-the-Middle). You need to understand the traditional security landscape before applying AI to it.
-        
-
----
-
-### Where You Go Next: The Core of AI Security (Phase 2)
-
-This is where you merge your foundational knowledge and start specializing. The field of "AI Security" is a two-way street:
-
-#### A) Securing AI Systems (Protecting the Model)
-
-This is about the vulnerabilities inherent in machine learning models themselves.
-
-- **Adversarial Machine Learning:** This is the central pillar.
-    
-    - **Evasion Attacks:** Crafting subtle, often human-imperceptible perturbations to an input to make a model misclassify it. (e.g., changing a few pixels to make an image classifier see a "stop sign" as a "speed limit 100" sign).
-        
-    - **Poisoning Attacks:** Injecting malicious data into the training set to create a backdoor or degrade the model's performance on specific tasks.
-        
-    - **Model Inversion & Membership Inference Attacks:** Extracting sensitive training data or even the model's parameters (W,b) by repeatedly querying it. This is a massive privacy and intellectual property risk.
-        
-    - **Start with these resources:** The [CleverHans](https://github.com/cleverhans-lab/cleverhans) library and the papers by Ian Goodfellow, Nicolas Papernot, and Patrick McDaniel are canonical.
-        
-- **Data Privacy:**
-    
-    - **Differential Privacy:** A formal mathematical framework for adding statistical noise to data or queries to protect individual privacy while allowing for aggregate analysis.
-        
-    - **Federated Learning:** A training paradigm where the model is trained on decentralized data (like on user phones) without the raw data ever leaving the device. This is crucial for privacy.
-        
-- **Explainability (XAI) & Robustness:**
-    
-    - You can't secure a black box. Techniques like **SHAP** and **LIME** help you understand _why_ a model made a specific decision, which is crucial for identifying biases and potential security flaws. A robust model is one that is less susceptible to adversarial attacks.
-        
-
-#### B) Using AI for Security (Applying AI to Defend Systems)
-
-This is using ML's power to detect patterns for traditional cybersecurity tasks.
-
-- **Anomaly Detection:** Using ML to establish a baseline of "normal" network traffic or user behavior and then flagging deviations that could indicate an intrusion (Intrusion Detection Systems - IDS).
-    
-- **Malware Analysis:** Classifying files as benign or malicious based on their static features (code structure) or dynamic behavior (what they do when executed in a sandbox).
-    
-- **Spam & Phishing Detection:** A classic ML application, using models like Naive Bayes or modern NLP Transformers (like BERT) to analyze text and identify malicious content.
-    
-
----
-
-### Where You End Up: The Expert Frontier (Phase 3)
-
-This is where you master the specific, advanced topics you mentioned.
-
-#### 1. Large-Scale ML That Moves People
-
-This isn't just about big models; it's about systems with massive societal impact and scale, like social media feeds, recommendation engines, and large-scale autonomous systems.
-
-- **The Problem Space:** The security threats are no longer just about misclassifying an image. They are about:
-    
-    - **Misinformation/Disinformation Campaigns:** Adversarially manipulating content to influence public opinion.
-        
-    - **Algorithmic Bias and Fairness:** How poisoning attacks or biased data can lead to models that discriminate at scale.
-        
-    - **Robustness at Scale:** How do you ensure a system serving a billion users is robust against targeted adversarial attacks?
-        
-- **Skills You'll Have:**
-    
-    - **MLOps (Machine Learning Operations):** Expertise in deploying, monitoring, and maintaining ML models in production using tools like Docker, Kubernetes, Kubeflow, and cloud platforms (AWS SageMaker, Google Vertex AI).
-        
-    - **Distributed Systems:** Understanding how to train and serve models that are too big for a single machine, using technologies like Apache Spark.
-        
-    - **Ethical AI & Governance:** You will be an expert not just on the technical vulnerabilities but also on the ethical frameworks and policies required to govern these powerful systems.
-        
-
-#### 2. Hyper-Optimized Deep Learning on Edge Devices
-
-This is the domain of TinyML and efficient deep learning.
-
-- **The Problem Space:** You need to perform complex analysis on resource-constrained devices (smartphones, IoT sensors, cars) without relying on the cloud. This requires extreme model efficiency.
-    
-    - **On-device Security:** The device itself can be physically compromised. How do you protect a model from being extracted or tampered with if an attacker has physical access?
-        
-    - **Edge-Specific Attacks:** Side-channel attacks (analyzing power consumption or computation time to infer model secrets) become a real threat.
-        
-    - **Privacy by Design:** Performing analysis on the edge is a massive privacy win, as raw data (e.g., audio from your smart speaker) doesn't need to be sent to a server. You'll be an expert in building systems that are private by default.
-        
-- **Skills You'll Have:**
-    
-    - **Model Optimization:** You will be a master of techniques like:
-        
-        - **Quantization:** Reducing the precision of model weights from 32-bit floats to 8-bit integers (FP32→INT8), drastically cutting size and speeding up inference.
-            
-        - **Pruning:** Removing redundant neural connections from a trained model.
-            
-        - **Knowledge Distillation:** Training a small, efficient "student" model to mimic the behavior of a large, powerful "teacher" model.
-            
-    - **Efficient Architectures:** Deep knowledge of mobile-first architectures like MobileNets, SqueezeNet, and EfficientNet.
-        
-    - **Embedded Systems & Hardware:** You'll be familiar with frameworks like **TensorFlow Lite**, **PyTorch Mobile**, and the specific hardware accelerators (like NPUs, TPUs) found in edge devices.
-        
-
-### Your Final Destination: The AI Security Architect
-
-As an expert with this complete skillset, you won't just be a "coder" or a "researcher." You will be an **AI Security Architect** or a **Principal ML Security Engineer**.
-
-You will be the person who can:
-
-- Look at a new, large-scale AI product and immediately begin **threat modeling** its entire lifecycle—from the data it's trained on, to the model itself, to its deployment on millions of edge devices.
-    
-- **Design defensive architectures** that are robust by default, incorporating federated learning, differential privacy, and adversarial training from day one.
-    
-- Lead a **"Red Team" for AI**, actively trying to break your own company's models to find vulnerabilities before attackers do.
-    
-- **Create new algorithms** and defense mechanisms that advance the state-of-the-art, publishing your findings at top-tier conferences (like NeurIPS, ICML, CCS, USENIX Security).
-    
-- **Bridge the gap** between AI research, software engineering, and executive leadership, explaining complex risks in a clear, actionable way.
-    
-
-This is a challenging but incredibly rewarding path. You will end up at the absolute cutting edge, working on problems that are fundamental to building a safe and trustworthy future with artificial intelligence.
-
-
-
-
-
-
-
-
-## Beginner to Intermediate Projects
-
-iilya sutskev 30 papers
-yash twitters models
+[[AI security roadmap]]
+# Beginner to Intermediate Projects
 
 ### 1. English to Newari Translation using Multi-Technique Finetuning
-
-**Title:** Multistrategy Translation for Low-Resource Language Pairs (English → Newari)
-
-- Implemented LoRA, QLoRA, and full finetuning on mBART/BLOOMZ for English-Newari translation.
-    
-- Evaluated using BLEU, chrF++, TER, and conducted error pattern analysis across domains.
-    
-- Deployed with a Streamlit app and added a mini MLOps pipeline (logging, checkpointing, profiling, CLI). hf spaces
-    
-
-**Keywords:** NMT, LoRA, QLoRA, Low-Resource Translation, chrF++, HuggingFace
+[[1.English to Newari Translation using Multi-Technique Finetuning]]
 
 ---
 
 ### 2. Paper Reimplementations: LoRA / QLoRA / CoT / Self-Instruct
 
-**Includes:**
-
-- LoRA, LoRA8, and QLoRA with GPT2, Mistral, T5; integrated with HuggingFace PEFT and eval harness.
-    
-- Self-Instruct and Evol-Instruct pipelines for instruction tuning with GPT-4 filtering.
-    
-- Chain-of-Thought prompting on GSM8K, StrategyQA, SVAMP; compared CoT, direct answer, distilled CoT.
-    
-
-**Keywords:** LoRA, Self-Instruct, CoT, Instruction Finetuning
+[[2 Paper Reimplementations LoRA -QLoRA - CoT - Self-Instruct]]
 
 ---
 
-## Intermediate to Advanced Projects
+# Intermediate to Advanced Projects
 
 ### 3. Memory-Efficient Backpropagation
 
@@ -294,8 +110,11 @@ https://github.com/atalw/fromthetensor
 
 ---
 
-## Advanced & Research-Level Projects
+# Advanced & Research-Level Projects
 
+iilya sutskev 30 papers
+https://aman.ai/primers/ai/top-30-papers/
+yash twitters models
 ### 9. Trajectory Generation with Diffusion Transformer (DiT-style)
 
 - Integrated Diffusion Transformer (DiT) policy head with multimodal embeddings.
@@ -333,7 +152,7 @@ voice anti deepfake services
 
 
 --- 
-## 13. Project astra recreate
+### 13. Project astra recreate
 
 
 ---
@@ -373,17 +192,419 @@ voice anti deepfake services
 - **Prompting:** LangChain, ReAct, AutoGPT
     
 
+
+
+
+
+
+
+# liquid ai
+## 🧱 1️⃣ One-Month Project — “Scalable Multi-GPU Inference Server with Dynamic Batching & Quantization”
+
+### 🎯 Goal
+
+Build a **production-grade inference server** that serves transformer models (LLMs or Vision Transformers) efficiently with:
+
+- **Dynamic batching**
+    
+- **Ragged sequence support**
+    
+- **Quantization**
+    
+- **KV-cache management**
+    
+- **Multi-GPU load balancing**
+    
+
+Essentially, you’ll implement a _mini TensorRT/DeepSpeed-Inference_–style system for your own model.
+
 ---
 
-## Optional
+### 💡 Concept
 
-Let me know if you'd like:
+You’ll design a modular inference stack capable of:
 
-- A LaTeX ".tex" export for resumes
+- Handling _requests of variable sequence lengths_ efficiently (ragged batching)
     
-- GitHub README.md template
+- Managing _KV-cache across requests_ for speedups in LLM decoding
     
-- Notion portfolio layout
+- Using _quantized weights_ to reduce GPU memory load
+    
+- Distributing requests across _multiple GPUs_ based on real-time load
+    
+- Benchmarking and visualizing performance metrics (latency, throughput, GPU utilization)
+    
+
+---
+
+### ⚙️ Architecture Overview
+
+`User Request → API Gateway → Scheduler → Dynamic Batch Builder →  GPU Workers (Quantized Model + KV Cache) → Output Stream`
+
+---
+
+### 🧩 Components Breakdown
+
+1. **Model Backend:**
+    
+    - Use a transformer model (e.g., LLaMA-3–instruct, Mistral-7B, or ViT).
+        
+    - Implement quantization using:
+        
+        - `bitsandbytes` (INT8 / INT4)
+            
+        - `torchao` (FP8 quantization)
+            
+    - Save both quantized and full-precision checkpoints for accuracy comparison.
+        
+2. **Dynamic Batching:**
+    
+    - Implement a _batch scheduler_ that groups requests with similar sequence lengths.
+        
+    - Use **ragged batching** (via padding + attention mask) for efficient throughput.
+        
+3. **KV-Cache Management:**
+    
+    - Store key-value caches for each session.
+        
+    - Reuse cached tokens to minimize recomputation during autoregressive decoding.
+        
+4. **Load Balancer:**
+    
+    - Implement a basic load balancer using Python multiprocessing or gRPC.
+        
+    - Dispatch inference jobs dynamically to GPUs based on utilization (use `torch.cuda.memory_allocated()` to monitor).
+        
+5. **Performance Dashboard:**
+    
+    - Create a small **Streamlit** or **Grafana** dashboard to visualize:
+        
+        - Average latency
+            
+        - Throughput (req/sec)
+            
+        - GPU memory usage
+            
+        - Quantization impact on accuracy
+            
+6. **Benchmarking:**
+    
+    - Compare:
+        
+        - Quantized vs full-precision model performance
+            
+        - Single-GPU vs multi-GPU latency/throughput
+            
+        - Static vs dynamic batching
+            
+
+---
+
+### 🚀 Deliverables
+
+- GitHub repo: `multi-gpu-inference-server`
+    
+- Streamlit dashboard for metrics visualization
+    
+- Technical report comparing optimization techniques
+    
+- Demo notebook: “From naive inference to production-grade serving”
+    
+
+---
+
+### 🧠 Skills Demonstrated
+
+- Multi-GPU inference design
+    
+- Ragged batching and KV-cache handling
+    
+- Quantization tradeoffs (FP8/INT4)
+    
+- Profiling and optimizing model serving
+    
+- Systems-level thinking
+    
+
+---
+
+## ⚡ 2️⃣ One-Week Project — “LLM Quantization & Inference Optimization Benchmark”
+
+### 🎯 Goal
+
+Perform a **comparative study** of quantization and optimization strategies for a transformer model, and benchmark their effect on speed, memory, and accuracy.
+
+This is a **compact but impactful** project that shows your understanding of the inference pipeline and performance trade-offs.
+
+---
+
+### 💡 Concept
+
+Benchmark the same model (say, `Mistral-7B` or `OPT-1.3B`) under different inference setups:
+
+|Setup|Quantization|GPU Mode|KV Cache|Dynamic Batching|
+|---|---|---|---|---|
+|Baseline|FP16|Single GPU|Off|Off|
+|Optimized 1|INT8|Single GPU|On|Off|
+|Optimized 2|INT4|Single GPU|On|On|
+|Optimized 3|FP8|Multi-GPU|On|On|
+
+You’ll collect and visualize metrics such as:
+
+- Latency per token
+    
+- Throughput (req/s)
+    
+- GPU memory footprint
+    
+- Output quality degradation (e.g., BLEU/F1 drop)
+    
+
+---
+
+### 🧩 Implementation Plan
+
+1. **Load Model:**
+    
+    - Use `transformers` or `vllm` to load model.
+        
+    - Wrap with different quantization methods (`bitsandbytes`, `torchao`, or `auto-gptq`).
+        
+2. **Add Caching:**
+    
+    - Implement token-level KV-cache reuse for autoregressive inference.
+        
+3. **Enable Dynamic Batching:**
+    
+    - Use `vllm.Engine` or implement a simple batch scheduler.
+        
+4. **Run Benchmarks:**
+    
+    - Test each setup with increasing concurrency (1–16 requests).
+        
+    - Log GPU utilization and memory stats via `torch.cuda`.
+        
+5. **Visualize:**
+    
+    - Use Matplotlib or Streamlit to plot tradeoffs between speed, memory, and accuracy.
+        
+
+---
+
+### 🚀 Deliverables
+
+- GitHub repo: `llm-inference-benchmarks`
+    
+- Notebook comparing 4 inference configurations
+    
+- Clear graphs of latency vs accuracy vs quantization type
+    
+- 2-page summary: “Optimizing Transformer Inference for Speed and Efficiency”
+    
+
+---
+
+### 🧠 Skills Demonstrated
+
+- Quantization strategies (INT4, FP8)
+    
+- GPU performance profiling
+    
+- KV-cache and batching effects
+    
+- Hands-on experience with inference frameworks (`vllm`, `bitsandbytes`, `torchao`)
+    
+- Practical understanding of serving tradeoffs
+    
+
+---
+
+## 🧩 Summary Table
+
+|Duration|Project Title|Focus|Outcome|
+|---|---|---|---|
+|🗓️ 1 Month|**Scalable Multi-GPU Inference Server with Dynamic Batching & Quantization**|Large-scale serving, batching, caching, load balancing|Full inference stack + dashboard + metrics report|
+|⚡ 1 Week|**LLM Quantization & Inference Optimization Benchmark**|Quantization & caching benchmarks|Compact comparative analysis + visualizations|
+---
+
+
+
+
+
+## 🧩 **1️⃣ One-Month Project — “Real-World Feedback Alignment for Multimodal Foundation Models”**
+
+### 🎯 **Goal**
+
+Build a **multimodal alignment system** that improves how a **vision-language model** (like CLIP or BLIP-2) understands _subjective human feedback_, such as aesthetics or emotional tone, rather than simple correctness.
+
+---
+
+### 💡 **Concept**
+
+Most models optimize for accuracy, not preference.  
+In this project, you’ll implement a **feedback-aligned fine-tuning setup** — similar to RLHF but for **multimodal data**.
+
+You’ll:
+
+- Collect or simulate human preference signals (like “which image caption feels more inspiring / visually accurate / engaging”),
+    
+- Design a **custom loss** that integrates these feedback signals,
+    
+- Fine-tune an open-source **vision-language model** (e.g., **BLIP-2**, **LLaVA**, or **OpenFlamingo**),
+    
+- Evaluate the model on both **standard benchmarks** and **custom feedback metrics**.
+    
+
+---
+
+### ⚙️ **Architecture Overview**
+
+`Image + Caption Dataset → Preference Collector (synthetic/human) →  Reward Model → Fine-tuned BLIP-2 → Evaluation on Aesthetic + Accuracy metrics`
+
+---
+
+### 🧩 **Detailed Components**
+
+|Component|Description|
+|---|---|
+|**Base Model**|Use **BLIP-2** (Salesforce) or **LLaVA-1.5** — both are PyTorch-based multimodal models.|
+|**Feedback Generation**|Collect synthetic ratings using CLIP similarity + language heuristics (e.g., “emotionally positive captions get higher score”).|
+|**Reward Model**|Train a small MLP to predict preference scores given image-text pairs.|
+|**Custom Training Setup**|Implement **Direct Preference Optimization (DPO)** or **Reward-Weighted CE Loss** to align the base model with feedback.|
+|**Distributed Training**|Use `torch.distributed` or `accelerate` for multi-GPU fine-tuning.|
+|**Evaluation Suite**|Measure performance on COCO captions + custom feedback metric (e.g., user preference win rate).|
+
+---
+
+### 🧰 **Tech Stack**
+
+- **PyTorch**, **Transformers**, **Accelerate**
+    
+- **BLIP-2 / LLaVA / OpenFlamingo**
+    
+- **Weights & Biases** (for experiment tracking)
+    
+- **Streamlit** (for qualitative before/after demo)
+    
+
+---
+
+### 🧠 **Key Deliverables**
+
+- GitHub repo: `multimodal-feedback-alignment`
+    
+- Custom reward model code + loss function
+    
+- Report: “Improving Human Preference Alignment in Vision-Language Models”
+    
+- Streamlit demo: upload an image → compare base vs. aligned model captions
+    
+
+---
+
+### 💥 **Impact**
+
+- Demonstrates ability to design _new loss functions_ and _feedback systems_
+    
+- Works beyond LLMs (vision-language domain)
+    
+- Shows autonomy, research direction, and production-ready prototyping
+    
+
+---
+
+## ⚡ **2️⃣ One-Week Project — “Custom Objective Playground: Fine-Tuning CLIP on Subjective Feedback”**
+
+### 🎯 **Goal**
+
+Quickly prototype how **custom loss functions** affect representation learning in **CLIP**.  
+You’ll train or fine-tune CLIP with new objectives based on _semantic similarity_ and _feedback signals_ rather than the standard cosine contrastive loss.
+
+---
+
+### 💡 **Concept**
+
+CLIP normally learns to match images and texts by cosine similarity.  
+You’ll introduce **a new contrastive loss** that accounts for _user preference scores_, like “caption relevance + creativity” or _semantic distance between similar captions_.
+
+---
+
+### ⚙️ **Implementation Flow**
+
+`Image + Captions → CLIP Encoder → Similarity Matrix →  Custom Weighted Contrastive Loss → Fine-tuned CLIP → Evaluation`
+
+---
+
+### 🧩 **Steps**
+
+1. Load a pretrained CLIP (OpenAI or LAION version via `open_clip`).
+    
+2. Use a small image-caption dataset (e.g., Flickr8k or a subset of COCO).
+    
+3. Generate synthetic feedback (e.g., rate captions by CLIP similarity or lexical richness).
+    
+4. Implement **Weighted Contrastive Loss**:
+    
+    L=−wi⋅log⁡esim(xi,yi)/τ∑jesim(xi,yj)/τL = -w_i \cdot \log \frac{e^{sim(x_i, y_i)/\tau}}{\sum_j e^{sim(x_i, y_j)/\tau}}L=−wi​⋅log∑j​esim(xi​,yj​)/τesim(xi​,yi​)/τ​
+    
+    where wiw_iwi​ = feedback-based weight per pair.
+    
+5. Fine-tune CLIP for 1–3 epochs, log embeddings, and visualize t-SNE of image-text pairs.
+    
+6. Compare results vs baseline contrastive loss visually and quantitatively.
+    
+
+---
+
+### 🧰 **Tech Stack**
+
+- PyTorch, open_clip
+    
+- Matplotlib, scikit-learn (for visualization)
+    
+- Weights & Biases for metric tracking
+    
+
+---
+
+### 🧠 **Deliverables**
+
+- GitHub repo: `clip-custom-objective`
+    
+- Jupyter notebook comparing baseline vs. feedback-weighted loss
+    
+- Visual report: t-SNE plots, CLIP similarity distributions
+    
+- Optional: blog-style write-up — “Tuning CLIP with Custom Feedback Objectives”
+    
+
+---
+
+### 💥 **Impact**
+
+- Compact project (1 week) with measurable improvement and clean visuals
+    
+- Demonstrates deep understanding of **PyTorch internals & loss design**
+    
+- Shows creativity + ability to move from **idea → prototype** fast
+    
+
+---
+
+## 🧾 **Summary Table**
+
+|Duration|Project Title|Focus|Core Model|Key Technical Highlights|
+|---|---|---|---|---|
+|🗓️ 1 Month|**Real-World Feedback Alignment for Multimodal Foundation Models**|Multimodal alignment, reward modeling, adaptive loss|**BLIP-2 / LLaVA**|Custom feedback loss, DPO fine-tuning, multimodal evaluation|
+|⚡ 1 Week|**Custom Objective Playground for CLIP**|Quick-turn contrastive loss experimentation|**CLIP (OpenAI/LAION)**|Weighted contrastive loss, embedding visualization, PyTorch custom training|
+
+---
+
+## 💬 **How to Present on Resume**
+
+> **Real-World Feedback Alignment for Multimodal Foundation Models** — Designed a feedback-driven fine-tuning framework for BLIP-2 that learns from aesthetic and preference signals. Implemented custom loss functions and reward modeling using PyTorch Distributed Training, achieving improved caption alignment with human preferences.
+
+> **Custom Objective Playground for CLIP** — Built a modular PyTorch framework to experiment with new loss functions for CLIP. Introduced a feedback-weighted contrastive loss to align image-text embeddings with subjective human ratings.
 
 
 
@@ -395,7 +616,8 @@ Let me know if you'd like:
 
 
 
-# 🚀 Project To-Do List
+
+# Project To-Do List
 
 ====== Beginner to Intermediate ======
 
@@ -446,8 +668,8 @@ Let me know if you'd like:
   - [ ] Long-horizon CoT reasoning  
   - [ ] Experiments: MiniGrid, KG games  
 
-- [ ] Finetuning LLaMA2-70B  
-  - [ ] Efficient training (FSDP + checkpointing + paged optimizer)  
+- [x] Finetuning LLaMA2-70B  
+  - [x] Efficient training (FSDP + checkpointing + paged optimizer)  
   - [ ] Benchmark with MT-Bench, AlpacaEval  
   - [ ] Deploy via Triton inference  
 
