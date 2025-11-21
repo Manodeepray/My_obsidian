@@ -1,6 +1,20 @@
 
 
-just ... lora on base model -> long f.t. run on adv dataset -> get logprobs -> detach lora --> new lora params -->long f.t. run safe dataset --> get logprobs --detach
+dual distill
+	
+	translation
+	lat eval
+	results in form of antidote
+		hs fa
+		red teaming
+	paper writing
 
-then dual distillation etc .. and  have some param efficient techniques .. like lora , reft , hyper network etc
+hyper enabled
+	distillation
+	loreft
 
+lora + loreft
+
+soft tamper res
+
+t2i valueunlearning
